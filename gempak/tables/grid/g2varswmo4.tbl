@@ -38,7 +38,7 @@
 000 000 011 008 Sensible Heat Net Flux           W m**-2              FXSH             0  -9999.00
 000 000 011 011 Sensible Heat Net Flux           W m**-2              FXSH             0  -9999.00
 000 000 012 000 Heat Index                       K                    HEAT             0  -9999.00
-!000 000 013 000 Wind Chill Factor                K                    ????             0  -9999.00
+000 000 013 000 Wind Chill Factor                K                    CHILL            0  -9999.00
 !000 000 014 000 Minimum Dew Point Depression     K                    ????             0  -9999.00
 000 000 015 000 Virtual Potential Temperature    K                    THTV             0  -9999.00
 000 000 017 000 Skin Temperature                 K                    SKTMP            0  -9999.00
@@ -171,7 +171,7 @@
 000 003 009 000 Geopotential Height Anomaly      gpm                  HGHTA            0  -9999.00
 000 003 010 000 Density                          kg m**-3             DNTY             0  -9999.00
 !000 003 011 000 Altimeter Setting                ????                 ????             ?  -9999.00
-!000 003 012 000 Thickness                        ????                 ????             ?  -9999.00
+000 003 012 000 Thickness                        m                    THKNS             ?  -9999.00
 !000 003 013 000 Pressure Altitude                ????                 ????             ?  -9999.00
 !000 003 014 000 Density Altitude                 ????                 ????             ?  -9999.00
 !
@@ -179,12 +179,16 @@
 !D# CT# ID# PD# NAME                             UNITS                GNAM         SCALE   MISSING
 !23|123|123|123|12345678901234567890123456789012|12345678901234567890|123456789012|12345|123456.89
 000 004 000 000 Net Short-Wave Rad (sfc)         W m**-2              SNIR             0  -9999.00
+000 004 000 008 Net Short-Wave Rad (sfc)         W m**-2              SNIR             0  -9999.00
 000 004 001 000 Net Short-Wave Rad (toa)         W m**-2              SWRT             0  -9999.00
 !000 004 002 000 Short-Wave Radiation Flux        W m**-2              ????             ?  -9999.00
 !000 004 003 000 Global radiation Flux            W m**-2              ????             ?  -9999.00
 !000 004 004 000 Brightness Temperature           K                    ????             ?  -9999.00
 !000 004 005 000 Radiance (w/r to wave nmber)     W m**-1 sr**-1       ????             ?  -9999.00
 !000 004 006 000 Radiance (w/r to wave length)    W m**-3 sr**-1       ????             ?  -9999.00
+000 004 007 000 Downward Short-Wave Rad. Flux    W m**-2              DSWRF            0  -9999.00
+000 004 007 008 Downward Short-Wave Rad. Flux    W m**-2              DSWRF            0  -9999.00
+000 004 008 000 Upward Short-Wave Rad. Flux      W m**-2              USWRF            0  -9999.00
 000 004 009 000 Net Solar Rad                    W m**-2 s            SRAD             0  -9999.00
 000 004 009 001 Net Solar Rad                    W m**-2 s            SRAD             0  -9999.00
 000 004 009 011 Net Solar Rad                    W m**-2 s            SRAD             0  -9999.00
@@ -193,6 +197,7 @@
 !D# CT# ID# PD# NAME                             UNITS                GNAM         SCALE   MISSING
 !23|123|123|123|12345678901234567890123456789012|12345678901234567890|123456789012|12345|123456.89
 000 005 000 000 Net Long-Wave Rad (sfc)          W m**-2              SNOR             0  -9999.00
+000 005 000 008 Net Long-Wave Rad (sfc)          W m**-2              SNOR             0  -9999.00
 000 005 001 000 Net Long-Wave Rad (toa)          W m**-2              LWRT             0  -9999.00
 !000 005 002 000 Long-Wave Radiation Flux         W m**-2              ????             0  -9999.00
 000 005 005 000 Outgoing Long-Wave Rad Flux      W m**-2              LWRU             0  -9999.00
@@ -356,3 +361,5 @@
 010 002 005 000 v-component of ice drift         m s-1                VRELI            0  -9999.00
 010 002 006 000 Ice growth rate                  m s-1                IGRO             0  -9999.00
 010 002 007 000 Ice divergence                   s-1                  IDIV             0  -9999.00
+!
+010 003 000 000 Water Temperature                K                    WTMP             0  -9999.00

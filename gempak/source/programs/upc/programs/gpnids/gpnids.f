@@ -13,7 +13,7 @@ C*
      +			panel, text, radtim, clrbar, output, proj,
      +			garea, colors, map, latlon, line, imcbar
 C*
-	INTEGER		level(2), luns(4), nlun, icolor, kx, ky
+	INTEGER		level(2), luns(4), nlun, kx, ky
 	REAL            rltln(4),rnvblk(LLNNAV),anlblk(LLNANL)
 C*
 	LOGICAL		clear, scflag
@@ -21,7 +21,7 @@ C*
 	CHARACTER	outdev (4)*1, gname*20, cprj*10
 	CHARACTER	ttlstr*(LLMXLN)
 	LOGICAL		proces, respnd, done, idrpfl
-	CHARACTER	tplate*(80), 
+	CHARACTER	tplate*(80), fnarr(3)*(LLMXLN),
      +			radfls(MXLOOP)*132,
      +			tmlst(MXLOOP)*20, tarr(2)*20
 
@@ -64,6 +64,7 @@ C
 	    IF  ( iret .ne. 0 ) THEN
 		done = .true.
 	      ELSE
+                CALL ST_CLST ( radfil, '|', ' ', 3, fnarr, num, ier)
 C
 C*		Set up the graphics device.
 C
@@ -91,7 +92,7 @@ C
 		if ( ier .eq. 0 )
      +		   CALL im_nids_output_luns ( nlun, luns )
 C
-		CALL IN_COLR ( colors, 1, icolor, ier )
+C		CALL IN_COLR ( colors, 1, icolor, ier )
 		CALL vad_colors ( icolor, ier )
 C
 c		CALL ST_LSTR  ( imcbar, lens, ier )
@@ -135,12 +136,17 @@ C		      Advance to the next frame.
      +			tmlst(i), ier )
 		   CALL IM_LUTF ( 'default', iret )
 		   CALL IM_DROP ( iret )
-		   CALL IM_CBAR ( imcbar, iret)
+                   IF ( fnarr(3) .ne. 'NVW') THEN
+		      CALL IM_CBAR ( imcbar, iret)
+                   END IF
 C
 C*		   Draw map and lat/lon lines
 C
-		   CALL GG_MAP  ( map, iret )
-                   CALL GG_LTLN ( latlon, iret )
+                   IF ( ( fnarr(3) .ne. 'NVW') .and.
+     +               ( fnarr(3) .ne. 'NST') ) THEN
+		      CALL GG_MAP  ( map, iret )
+                      CALL GG_LTLN ( latlon, iret )
+                   END IF
 C
 C*		   Write the title.
 C
@@ -151,7 +157,7 @@ C
 		   level(1) = 0
 		   level(2) = 1
 		   CALL GR_TITL ( ttlstr, tarr, false, level, 
-     +			0, 'NEXRAD', 0, ' ', ttlstr, shrttl, ier)
+     +			0, fnarr(1), 0, ' ', ttlstr, shrttl, ier)
 		   IF  ( clear )  CALL GMESG ( shrttl, ier )
 		   IF  ( icttl .gt. 0 )  THEN
 		       CALL GSCOLR  ( icttl, ier )
@@ -163,8 +169,10 @@ C
 		   ifcolr(1) = 0
 		   CALL vad_rms_colors ( NFLVL, ifcolr(2) )
 		   CALL vad_rms_vals ( NFLVL, flvl, nvals )
-		   CALL GG_CBAR ( clrbar, nvals, flvl,
+                   IF ( fnarr(3) .ne. 'NST') THEN
+		      CALL GG_CBAR ( clrbar, nvals, flvl,
      +                            ifcolr, ier )
+                   END IF
 C
 C*		   Flush the plotting buffers and update globals.
 C

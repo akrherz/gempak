@@ -99,7 +99,6 @@ COBJS = \
 	$(ALIB)(cvgupdateplace.o) \
 	$(ALIB)(cvgv2t.o) \
 	$(ALIB)(cvgv2x.o) \
-	$(ALIB)(vgf2xml.o) \
 	$(ALIB)(cvgvalid.o) \
 	$(ALIB)(cvgwrite.o) \
 	$(ALIB)(cvgwriteD.o) \
@@ -108,7 +107,9 @@ COBJS = \
 	$(ALIB)(cvgwritgfa.o) \
 	$(ALIB)(cvgwrittc.o) \
 	$(ALIB)(cvgwrittca.o) \
-	$(ALIB)(compareVgf.o)
+	$(ALIB)(compareVgf.o) \
+	$(ALIB)(ggdvgf.o) \
+	$(ALIB)(ctbgfa.o)
 
 GDIR = cvg
 
