@@ -31,6 +31,7 @@ C* D. Kidwell/NCEP	 7/01	Added storm type, check for zero winds  *
 C* A. Hardy/NCEP        10/02   Modified check for 50 KT winds.		*
 C* A. Hardy/NCEP	10/03	Added decoding JTWC 100, 50 & 34KT winds*
 C* D. Kidwell/NCEP	 6/04	Added check for 64 KT JTWC winds        *
+C* S. Guan/Ncep          5/25   Added 4 M SEAS                          *      
 C************************************************************************
 	INCLUDE		'GEMPRM.PRM'
 	INCLUDE		'BRIDGE.PRM'
@@ -138,19 +139,21 @@ C
             thirty = '34 -9999 -9999 -9999 -9999'
 	END IF
 C
-C*	Find the 12 foot seas.
+C*	Find the 12 foot seas or 4 M SEAS.
 C
         isea = INDEX( advstr(:ilen), '12 FT SEAS' )
-        IF ( isea .gt. 0 ) THEN
+        isea4 = INDEX( advstr(:ilen), '4 M SEAS' )
+        IF (isea4 .gt. 0 .and. isea .eq. 0) THEN
+           inw = INDEX( advstr(isea4:ilen), 'NW' )     
+           CALL HC_SPQD ( advstr(isea4:isea4+inw), naut, hvwnd, iret )
+           seaft = naut
+        ELSE IF ( isea .gt. 0 .and. isea4 .eq. 0 ) THEN
             inw = INDEX( advstr(isea:ilen), 'NW' )
             CALL HC_SPQD ( advstr(isea:isea+inw), naut, hvwnd, iret )
             seaft = naut
-          ELSE
-            hvwnd = .false.
+        ELSE
+            seaft = '4 -9999 -9999 -9999 -9999'
         END IF
-	IF ( .not. hvwnd ) THEN
-            seaft = '12 -9999 -9999 -9999 -9999'
-	END IF
 C
 	IF ( fstype .eq. ' ' ) fstype = 'TD'
 C*

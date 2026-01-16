@@ -1166,6 +1166,7 @@ void pgofmt_rdFcstInfo ( int *iret )
  * R. Curtis/EAI        05/00   reads from modified forecasters table   *
  * T. Piper/SAIC	12/01	close file				*
  * S. Jacobs/NCEP	 9/09	Increased number of forecasters to 50	*
+ * B. Hebbard/SDB	 9/25   prevented SEGV if # forecasters > MXELE *
  ***********************************************************************/
 {
     int		ii, ier;
@@ -1212,8 +1213,11 @@ void pgofmt_rdFcstInfo ( int *iret )
 		/*
 		 *  Process entry for forecaster name.
 		 */
-		strcpy ( _ofInfo[FCST].range[_ofInfo[FCST].nelems], name );
-		_ofInfo[FCST].nelems++;
+		if (_ofInfo[FCST].nelems < MXELE) {
+		    strcpy ( _ofInfo[FCST].range[_ofInfo[FCST].nelems], name );
+		    _ofInfo[FCST].nelems++;
+                }
+
         }
 
     }

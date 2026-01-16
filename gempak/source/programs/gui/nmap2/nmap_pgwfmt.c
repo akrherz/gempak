@@ -4608,17 +4608,18 @@ void pgwfmt_rdInfo ( int *iret )
  * H. Zeng/EAI          06/02   removed initial time input              *
  * H. Zeng/XTRIA	06/03	added pass code info.			*
  * S. Jacobs/NCEP	 9/09	Increased number of forecasters to 50	*
+ * B. Hebbard/SDB	 9/25	prevented SEGV if # forecasters > MXELE *
  ***********************************************************************/
 {
-    int		ii, ityp, jtyp, pieces, ier, ier2;
-    char	buff[256], fnm[32], cat[20], type[12], str[128]; 
-    char	name[17],  number[256], code[256], *iptr;
-    FILE    	*fp;
+    int			ii, ityp, jtyp, pieces, ier, ier2, err_code;
+    char		buff[256], fnm[32], cat[20], type[12], str[128]; 
+    char		name[17],  number[256], code[256], *iptr;
+    FILE    		*fp;
+    static Boolean	first_warn = TRUE;
 /*---------------------------------------------------------------------*/
 
     *iret = 0;
-
-
+     
     /*
      *  Initialize the information structures.
      */
@@ -4690,7 +4691,6 @@ void pgwfmt_rdInfo ( int *iret )
     } /* the end of while( !feof...  */
     cfl_clos(fp, &ier);
 
-
     /*
      *  Open the forecasters table. If not found, return an error.
      */
@@ -4719,9 +4719,15 @@ void pgwfmt_rdInfo ( int *iret )
         	/*
 		 *  Process entry for forecaster name.
 		 */
-		strcpy ( _wfInfo[FCST].range[_wfInfo[FCST].nelems], name );
-		_wfInfo[FCST].nelems++;
-
+		if (_wfInfo[FCST].nelems < MXELE) {
+		    strcpy ( _wfInfo[FCST].range[_wfInfo[FCST].nelems], name );
+		    _wfInfo[FCST].nelems++;
+		}
+		else if (_wfInfo[FCST].nelems == MXELE && first_warn) {
+		    first_warn = FALSE;
+		    fprintf ( stderr, "Warning: More than %d entries in", MXELE );
+        	    fprintf ( stderr, " %s; rest ignored.\n", FORECASTERS_TBL );
+		}
 	}
 
     } /* the end of while( !feof...  */

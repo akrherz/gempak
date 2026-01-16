@@ -15,6 +15,7 @@
  * S. Jacobs/NCEP	 4/10		Added MAP_NPSA			*
  * S. Jacobs/NCEP	 3/11		Modified MAXFLD: 16 -> 24	*
  * B. Hebbard/NCEP	 7/23		Added American Samoa: "AS"	*
+ * B. Hebbard/NCEP	 2/25		"Gulf of Mexico"->"America"	*
  ***********************************************************************/
 
 /*---------------------------------------------------------------------*/
@@ -274,7 +275,7 @@ char stateno[NUMSTNO][3] = {
 	"LS",		/* 65 */	/* Lake Superior */
 	"AM",		/* 66 */	/* Mid Atlantic */
 	"AN",		/* 67 */	/* North Atlantic */
-	"GM",		/* 68 */	/* Gulf of Mexico */
+	"GM",		/* 68 */	/* Gulf of America */
 	"PK",		/* 69 */	/* Pacific Coast of Alaska */
 	"PH",		/* 70 */	/* Pacific Coasts of Hawaii */
 	"PM",		/* 71 */	/* Pacific Coasts of Marianas Islands */

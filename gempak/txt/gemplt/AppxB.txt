@@ -195,8 +195,7 @@ prompts for the following inputs:
 	REGION   CN
 
     In this example, adding "S" to the region specification would
-    include "New Mexico;" adding "I" would include "Gulf of Mexico
-    Islands."
+    include "New Mexico."
 
 Another utility program, NAMPLT, plots individual records.  It is used
 for debugging a map file.  Before running NAMPLT, the GEMPAK program

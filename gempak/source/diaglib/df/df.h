@@ -8,6 +8,7 @@
  * R. Tian/SAIC          2/06   Created                                 *
  * R. Tian/SAIC		 9/06	Removed grc.h, fortran_wrappers.h	*
  * K. Brill/HPC          4/08   Added df_incd; df_bncdf; df_ibncd	*
+ * K. Brill/IMSG         6/15   Added df_mfrq                           *
  * C. Melick/SPC         9/16   Added df_gkdes; df_navg; df_ncge;       *
  *                              df_ncle; df_nfge; df_nfle; df_nsum;     *
  *                              df_nwavg                                *
@@ -71,6 +72,7 @@ void df_lows ( int *iret );
 void df_lt ( int *iret );
 void df_mask ( int *iret );
 void df_mass ( int *iret );
+void df_mfrq ( int *iret );
 void df_miss ( int *iret );
 void df_mixr ( int *iret );
 void df_mul ( int *iret );

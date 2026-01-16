@@ -38,6 +38,7 @@ C**                                                                     *
 C* Log:                                                                 *
 C* L. Hinson/AWC        09/12                                           *
 C* L. Hinson/AWC        10/18 Updated to add tracks flag                *
+C* S. Guan/NCEP         10/25          Increase capacity: MAXSTK by x5  *      
 C************************************************************************ 
 	INCLUDE 'GEMPRM.PRM'
 C*
@@ -54,7 +55,7 @@ C*
         LOGICAL         tracksfl
         INTEGER         ht, ixoff, iyoff
 C*
-	PARAMETER	( MAXSTK = LLMXPT * 2 )
+	PARAMETER	( MAXSTK = LLMXPT * 10 )
 C*
 	REAL            lats (LLMXPT), lons (LLMXPT), ages(LLMXPT)        
         REAL            edr (LLMXPT), edrv

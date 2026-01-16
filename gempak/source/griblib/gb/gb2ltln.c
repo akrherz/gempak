@@ -30,6 +30,8 @@ void gb2_ltln ( gribfield *gfld, float *gdsarr, int *scan_mode, int *iret )
  * D.W.Plummer/NCEP	 2/96		Cleanup GBDIAGs and comments	*
  * S. Jacobs/NCEP	12/00	Added prototypes			*
  * S. Gilbert        1/04       Modified from gb_ltln for use w/ GRIB2  *
+ * S. Guan              12/24   Comment out   if ( Lo2 > 180000000 )    * 
+ *                                 Lo2 = Lo2 - 360000000;               *
  ***********************************************************************/
 {
         int	La1, La2, Lo1, Lo2, Nx, Ny, mode;
@@ -78,7 +80,9 @@ void gb2_ltln ( gribfield *gfld, float *gdsarr, int *scan_mode, int *iret )
 	 */
 	Lo2e = (int)gfld->igdtmpl[15];
         Lo2 = Lo2e;
+	/*
         if ( Lo2 > 180000000 ) Lo2 = Lo2 - 360000000;
+	*/
 
 	/*
 	 * Di - i direction increment

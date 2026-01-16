@@ -489,7 +489,7 @@ int *num_vals, int debuglvl)
           switch (descrip) {
             case D_MetFeature:
               switch (metFeatureOrDataSig) {
-                case MF_Turbulence:
+                case MF_Turbulence: case MF_MountainWave:
                   tango.repFactorTurb++;
                   if (tango.repFactorTurb == 1) {
                     G_MALLOC ( tango.Turb, GFA_Turbulence_t,

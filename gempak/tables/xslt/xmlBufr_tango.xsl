@@ -15,6 +15,8 @@
       
       L. Hinson/AWC 01/06 Initial Coding
       L. Hinson/AWC 03/06 Updated for 5.9.2
+      L. Hinson/AWC 01/25 Added Mountain Wave Code 23 for Turbulence Objects.
+                          Turbulence without Mountain Waves, still uses code 13.
  --> 
 
   <xsl:variable name="x">
@@ -39,7 +41,14 @@
           <xsl:when test="hazard='TURB' or hazard='TURB-HI' or hazard='TURB-LO'">
             <xsl:element name="metFeature">
               <xsl:attribute name="type">Turbulence</xsl:attribute>
-              <xsl:attribute name="bufrCode">13</xsl:attribute>          
+              <xsl:choose>
+                <xsl:when test="DUE_TO='Mountain Wave'">
+                  <xsl:attribute name="bufrCode">23</xsl:attribute>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:attribute name="bufrCode">13</xsl:attribute>
+                </xsl:otherwise>
+              </xsl:choose>    
               <xsl:call-template name="GFAIdObsOrFcstLoc">
                  <xsl:with-param name="id" select="tag"/>
                  <xsl:with-param name="fcstHr" select="fcstHr"/>

@@ -190,6 +190,7 @@ static void tbl_cnty ( shp_record *shprec, int numrec, int *iret )
  **                                                                     *
  * Log:                                                                 *
  * R. Tian/SAIC          3/04   	Initial coding                  *
+ * B. Hebbard/SDB        3/25   	Remove commas from name         *
  ***********************************************************************/
 {
     shp_record *currec;
@@ -223,6 +224,13 @@ static void tbl_cnty ( shp_record *shprec, int numrec, int *iret )
 		ctynam[len] = '\0';
 		cst_rspc ( ctynam, &ier );
 		abbreviate ( ctynam, 32, shrnam, &ier );
+
+		/*
+                 * Remove any commas from county name
+                 */
+                do {
+		   cst_rmst ( shrnam, ",", &len, shrnam, &ier );
+		} while ( ier == 0 );
 
 		/*
 		 * Remove "City_of_" from county name
@@ -305,7 +313,9 @@ static void tbl_mari ( shp_record *shprec, int numrec, int *iret )
  **                                                                     *
  * Log:                                                                 *
  * R. Tian/SAIC          3/04   	Initial coding                  *
- * S. Gilbert/NCEP      11/13       Restrict fulnam to 250 chars        *
+ * S. Gilbert/NCEP      11/13       	Restrict fulnam to 250 chars    *
+ * B. Hebbard/SDB        3/25       	Change fullen type int=>size_t  *
+ *                                  	Remove commas from name         *
  ***********************************************************************/
 {
     shp_record *currec;
@@ -314,7 +324,8 @@ static void tbl_mari ( shp_record *shprec, int numrec, int *iret )
      * specification.
      */
     char id[7], fulnam[251], shrnam[33], wfonam[4], stabbr[3];
-    int ifips, istno, izone, ilat, ilon, fullen=250;
+    size_t fullen=250;
+    int ifips, istno, izone, ilat, ilon;
     int irec, jfld, len, ier;
     char *tblnam = MARINETBL;
     float shplat, shplon;
@@ -345,26 +356,32 @@ static void tbl_mari ( shp_record *shprec, int numrec, int *iret )
                 }
                 ifips = istno * 10000 + izone * 10;
             } else if ( strncmp ( currec->fields[jfld].name, "WFO",
-                strlen ( "WFO" ) ) == 0 ) {
+                                  strlen ( "WFO" ) ) == 0 ) {
                 strncpy ( wfonam, currec->fields[jfld].data, 3 );
-		        wfonam[3] = '\0';
+		wfonam[3] = '\0';
             } else if ( strncmp ( currec->fields[jfld].name, "NAME",
-                strlen ( "NAME" ) ) == 0 ) {
-        		if (strlen(currec->fields[jfld].data) <= fullen )
+                                  strlen ( "NAME" ) ) == 0 ) {
+                if (strlen(currec->fields[jfld].data) <= fullen )
                     strcpy ( fulnam, currec->fields[jfld].data );
-        		else {
-        			strncpy ( fulnam, currec->fields[jfld].data, fullen );
-        		    fulnam[fullen]='\0';
-                }
-		        cst_lstr ( fulnam, &len, &ier );
-		        fulnam[len] = '\0';
+                else {
+                    strncpy ( fulnam, currec->fields[jfld].data, fullen );
+                    fulnam[fullen]='\0';
+		}
+		cst_lstr ( fulnam, &len, &ier );
+		fulnam[len] = '\0';
                 cst_rspc ( fulnam, &ier );
-		        abbreviate ( fulnam, 32, shrnam, &ier );
-	        } else if ( strncmp ( currec->fields[jfld].name, "LAT",
-                strlen("LAT") ) == 0 ) {
+		abbreviate ( fulnam, 32, shrnam, &ier );
+                /*
+                 * Remove commas from name
+                 */
+                do {
+                   cst_rmst ( shrnam, ",", &len, shrnam, &ier );
+                } while ( ier == 0 );
+	    } else if ( strncmp ( currec->fields[jfld].name, "LAT",
+                                  strlen("LAT") ) == 0 ) {
                 shplat = atof ( currec->fields[jfld].data );
-	        } else if ( strncmp ( currec->fields[jfld].name, "LON",
-                strlen("LON") ) == 0 ) {
+	    } else if ( strncmp ( currec->fields[jfld].name, "LON",
+                                  strlen("LON") ) == 0 ) {
                 shplon = atof ( currec->fields[jfld].data );
             }
         }
@@ -408,6 +425,7 @@ static void tbl_mzcn ( shp_record *shprec, int numrec, int *iret )
  * 				the type of file - county or marine	*
  * X.Guo/CWS             9/11   Increased fulname size and chnaged      *
  *                              SHAPE_LENG to COUNTYNAME                *
+ * B. Hebbard/SDB        3/25   Remove commas from name                 *
  ***********************************************************************/
 {
     shp_record *currec;
@@ -452,6 +470,13 @@ static void tbl_mzcn ( shp_record *shprec, int numrec, int *iret )
 			fulnam[len] = '\0';
                         cst_rspc ( fulnam, &ier );
                         abbreviate ( fulnam, 32, shrnam, &ier );
+
+                        /*
+                         * Remove any commas from county name
+                         */
+                        do {
+                            cst_rmst ( shrnam, ",", &len, shrnam, &ier );
+                        } while ( ier == 0 );
 
                         /*
                          * Remove "City_of_" from county name
@@ -588,6 +613,7 @@ static void tbl_zone ( shp_record *shprec, int numrec, int *iret )
  **                                                                     *
  * Log:                                                                 *
  * R. Tian/SAIC          3/04   	Initial coding                  *
+ * B. Hebbard/SDB        3/25   	Remove commas from name         *
  ***********************************************************************/
 {
     shp_record *currec;
@@ -636,6 +662,12 @@ static void tbl_zone ( shp_record *shprec, int numrec, int *iret )
 		zonenm[len] = '\0';
 		cst_rspc ( zonenm, &ier );
 		abbreviate ( zonenm, 32, shrnam, &ier );
+                /*
+                 * Remove commas from name
+                 */
+                do {
+                    cst_rmst ( shrnam, ",", &len, shrnam, &ier );
+                } while ( ier == 0 );
 	    }
 	}
 
@@ -678,6 +710,7 @@ static void tbl_rfcb ( shp_record *shprec, int numrec, int *iret )
  **                                                                     *
  * Log:                                                                 *
  * R. Tian/SAIC          4/04   	Initial coding                  *
+ * B. Hebbard/SDB        3/25   	Remove commas from name         *
  ***********************************************************************/
 {
     shp_record *currec;
@@ -716,6 +749,12 @@ static void tbl_rfcb ( shp_record *shprec, int numrec, int *iret )
 		basnam[len] = '\0';
 		cst_rspc ( basnam, &ier );
 		abbreviate ( basnam, 32, shrnam, &ier );
+                /*
+                 * Remove commas from name
+                 */
+                do {
+                    cst_rmst ( shrnam, ",", &len, shrnam, &ier );
+                } while ( ier == 0 );
 	    } else if ( strncmp ( currec->fields[ifld].name, "CWA",
 	        strlen ( "CWA" ) ) == 0 ) {
 	        strcpy ( cwanam, currec->fields[ifld].data );
@@ -830,6 +869,7 @@ static void tbl_npsa ( shp_record *shprec, int numrec, int *iret )
  * S. Jacobs/NCEP	 4/10   	Initial coding                  *
  * X. Guo/CWS            4/12           Increase variables(code,shrnam) *
  *                                      size                            *
+ * B. Hebbard/SDB        3/25   	Remove commas from name         *
  ***********************************************************************/
 {
     shp_record *currec;
@@ -867,6 +907,12 @@ static void tbl_npsa ( shp_record *shprec, int numrec, int *iret )
 		name[len] = '\0';
 		cst_rspc ( name, &ier );
 		abbreviate ( name, 50, shrnam, &ier );
+                /*
+                 * Remove any commas from PSA name
+                 */
+                do {
+                    cst_rmst ( shrnam, ",", &len, shrnam, &ier );
+                } while ( ier == 0 );
 	    }
 	}
 

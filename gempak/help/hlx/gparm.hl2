@@ -248,6 +248,7 @@
 	SMIN	(S1,S2)		Minimum of S1 and S2
 	MASK	(S1,S2)		Mask S1 based on S2
 	MISS	(S1,S2)		Set missing values in S1 to S2
+        MFRQ    (S1,S2)         S2 modified to match S1 freq. distribution
 
 	ADV	(S,V)		Advection
 	AVG	(S1,S2)		Average
