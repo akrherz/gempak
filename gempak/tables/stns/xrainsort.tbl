@@ -9,6 +9,7 @@
 !
 ! Log:
 ! F. J. Yen/NCEP	9/98	Created
+! B. Hebbard/SDB	6/25	Removed stray commas from NAME fields
 !
 PASY     704140 SHEMYA_AFB                       AK US  5272  17412    30  0
 YYT      718010 SAINT_JOHN'S_ARPT                NF CN  4762  -5273   140  0
@@ -382,7 +383,7 @@ ASJ      999999 AHOSKIE_TRI_COU                  NC US  3630  -7717    21  0
 DAA      724037 FORT_BELVOIR/DAVISO              VA US  3872  -7718    21  0
 YPX      719077 POVUNGNITUQ                      QB CN  6005  -7728    23  0
 NYG      724035 QUANTICO_MCAF                    VA US  3850  -7730     4  0
-YWA      716250 PETAWAWA_A,ONT                   ON CN  4595  -7732   130  9
+YWA      716250 PETAWAWA_A ONT                   ON CN  4595  -7732   130  9
 RIC      724010 RICHMOND/BYRD_FIELD              VA US  3750  -7733    54  9
 AKQ      999999 WAKEFIELD                        VA US  3750  -7733    54  0
 FDK      999999 FREDERICK_MUNI_APT               MD US  3941  -7737    92  0
@@ -1219,7 +1220,6 @@ ULM      726567 NEW_ULM_MUNI_(AWOS)              MN US  4432  -9450   308  0
 JLN      723495 JOPLIN_REGIONAL                  MO US  3715  -9450   299  0
 LJF      999999 LITCHFIELD                       MN US  4510  -9451   348  0
 VWU      999999 WASKISH_MUNI_APRT                MN US  4815  -9452   360  0
-GVW      724466 RICHARDS-GEBAUR_AFB              MO US  3885  -9455   333  0
 JYG      999999 ST_JAMES_MUNI_ARPT               MN US  4399  -9456   325  0
 MWT      723435 MOUNT_IDA                        AR US  3455  -9458   214  0
 MMMT     767383 MINATITLAN                       -- MX  1810  -9458    40  0
@@ -1782,7 +1782,7 @@ RKS      725744 ROCK_SPRINGS______&              WY US  4160 -10907  2060  9
 P34      999999 WINDOW_ROCK                      AZ US  3565 -10907  2054  0
 MMLM     763615 LOS_MOCHIS_AIRPORT               -- MX  2568 -10908     4  0
 YKY      711290 KINDERSLEY_ARPT___&              SA CN  5152 -10917   694  0
-WFZ      711600 FORT_RELIANCE,NWT                NT CN  6272 -10918   168  0
+WFZ      711600 FORT_RELIANCE NWT                NT CN  6272 -10918   168  0
 SJN      723754 ST._JOHNS_AIR_PARK_(ASOS)        AZ US  3452 -10938  1747  0
 WMQ      714530 MAPLECREEK_(AUTO8)               SA CN  4990 -10947   767  0
 LWT      726776 LEWISTOWN_MUNICIPAL              MT US  4705 -10947  1270  9
@@ -2170,7 +2170,7 @@ TIW      727938 TACOMA_NARROWS                   WA US  4727 -12258    89  0
 GRF      742070 FORT_LEWIS/GRAY_AAF              WA US  4708 -12258    92  0
 PDX      726980 PORTLAND_INTL_ARPT               OR US  4560 -12260    12  9
 NUW      690230 WHIDBEY_ISLAND_NAS&              WA US  4835 -12265    14  0
-VUO      999999 PEARSON_AIRPARK,_VANCOUVER       WA US  4562 -12265     8  0
+VUO      999999 PEARSON_AIRPARK_VANCOUVER        WA US  4562 -12265     8  0
 76S      727964 OAK_HARBOR_AIRPARK               WA US  4825 -12267    58  0
 YXS      718960 PRINCE_GEORGE_ARPT               BC CN  5388 -12268   691  9
 WMM      717750 P._MEADOWS_CS_AUTO8              BC CN  4920 -12268     5  0

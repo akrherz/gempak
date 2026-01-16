@@ -285,7 +285,7 @@ UATT  35229 AKTYUBINSK                       AL RA  5028   5715   227  1
       35394 KARAGANDA                        AL RA  4980   7313   555  1
       35671 JEZKAZGAN                        AL RA  4780   6772   345  1
       35700 GURYEV                           AL RA  4702   5185    15  1
-UATA  35746 ARAL,SKOE MORE                   AL RA  4678   6167    56  1
+UATA  35746 ARAL SKOE MORE                   AL RA  4678   6167    56  1
       35796 BALKHASH                         AL RA  4690   7500   423  1
       36003 PAVLODAR                         AL RA  5228   7695   146  1
       36096 KIZIL                            NO RA  5167   9438   629  1
@@ -891,7 +891,7 @@ SAVC  87860 COMODORO RIVADA                     AG -4578  -6750    46  1
       89592 MIRNIY SOV-BASE                     RA -6655   9302    30  1
       89606 VOSTOK SOV-BASE                     RA -7845  10687  3420  1
       89611 CASEY AUS-BASE                      AU -6627  11053    15  1
-      89642 DUMONT D,URVILL                     FR -6667  14002    43  1
+      89642 DUMONT DURVILL                      FR -6667  14002    43  1
       89657 LENINGRADSKAYA                      RA -6950  15938   300  1
       89664 MCMURDO USA-BAS                     US -7784  16667    24  1
 PMDY  91066 MIDWAY ISLAND N                  HI US  2822 -17737     9  1

@@ -9,6 +9,7 @@
 ! R. Tian/SAIC          05/02   Created with 14 MAY 02 River Basins shapefile
 ! R. Tian/SAIC          07/02   Updated with 18 JUL 02 River Basins shapefile
 ! R. Tian/SAIC          04/05   Updated with ba18mr05.zip
+! B. Hebbard/SDB        06/25   Removed stray commas from NAME fields
 !----------------------------------------------------------------------------
 !
 !STID    STNM   NAME                             ST CO   LAT    LON  ELV PRI WFO
@@ -833,22 +834,22 @@ SAPA3H    CBRFC                                  -- US  3152 -11013     0  0
 AVCA3H    CBRFC                                  -- US  3154 -11129     0  0    
 SCLA3H    CBRFC                                  -- US  3143 -11061     0  0    
 SCNA3H    CBRFC                                  -- US  3135 -11087     0  0    
-WMSO3     CNRFC Williamson_-Sprague_River,_blo   -- US  4284 -12145     0  0 MFR
+WMSO3     CNRFC Williamson_-Sprague_River_blo    -- US  4284 -12145     0  0 MFR
 KLAO3     CNRFC                                  -- US  4254 -12202     0  0 MFR
 BTYO3     CNRFC Sprague_nr_Beatty                -- US  4243 -12096     0  0 MFR
 IRGC1     CNRFC Klamath_-_Iron_Gate_Dam          -- US  4208 -12213     0  0 MFR
-CREC1     CNRFC Smith_-_Crescent_City,_nr        -- US  4182 -12386     0  0 EKA
-SEIC1     CNRFC Klamath_-_Seiad_Valley,_nr       -- US  4182 -12293     0  0 MFR
+CREC1     CNRFC Smith_-_Crescent_City_nr         -- US  4182 -12386     0  0 EKA
+SEIC1     CNRFC Klamath_-_Seiad_Valley_nr        -- US  4182 -12293     0  0 MFR
 YREC1     CNRFC Shasta_-_Yreka                   -- US  4170 -12243     0  0 MFR
-HAPC1     CNRFC Indian_Ck_-_Happy_Camp,_nr       -- US  4191 -12348     0  0 MFR
+HAPC1     CNRFC Indian_Ck_-_Happy_Camp_nr        -- US  4191 -12348     0  0 MFR
 ONSC1     CNRFC Klamath_-_Orleans                -- US  4165 -12346     0  0 MFR
-FTDC1     CNRFC Smith_-_Fort_Dick,_nr            -- US  4178 -12410     0  0 EKA
+FTDC1     CNRFC Smith_-_Fort_Dick_nr             -- US  4178 -12410     0  0 EKA
 CNBC1     CNRFC Pit_River_nr_Canby               -- US  4144 -12056     0  0 MFR
 MARN2     CNRFC Martin_Ck_near_Paradise          -- US  4165 -11742     0  0 LKN
 MBON2     CNRFC                                  -- US  4165 -11537     0  0    
-FTJC1     CNRFC Scott_-_Fort_Jones,_nr           -- US  4148 -12285     0  0 MFR
+FTJC1     CNRFC Scott_-_Fort_Jones_nr            -- US  4148 -12285     0  0 MFR
 MTBN2     CNRFC Marys_-_Twin_Buttes              -- US  4142 -11524     0  0 LKN
-KLMC1     CNRFC Klamath_-_Turwar_Creek,_abv      -- US  4131 -12373     0  0 EKA
+KLMC1     CNRFC Klamath_-_Turwar_Creek_abv       -- US  4131 -12373     0  0 EKA
 HREN2     CNRFC Humboldt_-_Elko                  -- US  4112 -11537     0  0 LKN
 PITC1     CNRFC Pit_River_blo_Montgomery_Ck      -- US  4103 -12138     0  0 STO
 SBRC1     CNRFC Salmon_-_Somes_bar               -- US  4128 -12319     0  0 MFR
@@ -860,7 +861,7 @@ PALN2     CNRFC Humboldt_-_Palisade              -- US  4083 -11597     0  0 LKN
 HOOC1     CNRFC Trinity_R_@_Hoopa                -- US  4090 -12348     0  0 EKA
 SHDC1     CNRFC Sacramento_-_Shasta_Dam          -- US  4090 -12225     0  0 STO
 BURC1     CNRFC Trinity_R_nr_Burnt_Ranch         -- US  4075 -12305     0  0 EKA
-ARCC1     CNRFC Mad_-_Arcata,_nr                 -- US  4055 -12360     0  0 EKA
+ARCC1     CNRFC Mad_-_Arcata__nr                 -- US  4055 -12360     0  0 EKA
 WHSC1     CNRFC Whiskey_Ck_-_Whiskeytown_Dam     -- US  4078 -12264     0  0 STO
 DIXN2     CNRFC SF_Humboldt_-_Elko               -- US  4039 -11569     0  0 LKN
 CWCC1     CNRFC Cow_Creek_-_Millville            -- US  4066 -12198     0  0 STO
@@ -871,7 +872,7 @@ FRNC1     CNRFC Eel_-_Fernbridge                 -- US  4058 -12400     0  0 EKA
 LCLN2     CNRFC Lamoille_Ck_nr_Lamoille          -- US  4064 -11542     0  0 LKN
 COTC1     CNRFC Battle_Ck_-_Cottonwood           -- US  4047 -12183     0  0 STO
 CTWC1     CNRFC Cottonwood_Ck_-_Cottonwood       -- US  4031 -12264     0  0 STO
-BRGC1     CNRFC Van_Duzen_-_Bridgeville,_nr      -- US  4041 -12365     0  0 EKA
+BRGC1     CNRFC Van_Duzen_-_Bridgeville_nr       -- US  4041 -12365     0  0 EKA
 SUSC1     CNRFC Susan_River_-_Susanville         -- US  4042 -12093     0  0 REV
 SCOC1     CNRFC Eel_-_Scotia                     -- US  4032 -12380     0  0 EKA
 PLLC1     CNRFC                                  -- US  4033 -12117     0  0    
@@ -881,9 +882,9 @@ TEHC1     CNRFC Sacramento_-_Tehama              -- US  4018 -12216     0  0 STO
 PLGC1     CNRFC                                  -- US  4006 -12109     0  0    
 IIFC1     CNRFC                                  -- US  4008 -12067     0  0    
 FTSC1     CNRFC Eel_-_Fort_Seward                -- US  3976 -12341     0  0 EKA
-MRNC1     CNRFC SF_Eel_-_Miranda,_nr             -- US  4002 -12376     0  0 EKA
+MRNC1     CNRFC SF_Eel_-_Miranda_nr              -- US  4002 -12376     0  0 EKA
 BKCC1     CNRFC Butte_Ck_-_Chico                 -- US  3994 -12160     0  0 STO
-DOSC1     CNRFC MF_Eel_-_Dos_Rios,_nr            -- US  3982 -12306     0  0 EKA
+DOSC1     CNRFC MF_Eel_-_Dos_Rios_nrv            -- US  3982 -12306     0  0 EKA
 HKCC1     CNRFC Big_Chico_Ck_-_Chico             -- US  3995 -12164     0  0 STO
 VWBC1     CNRFC Sacramento_-_Vina-Woodson_Br     -- US  4000 -12217     0  0 STO
 ORDC1     CNRFC Feather_-_Oroville_Dam           -- US  3979 -12151     0  0 STO
@@ -980,7 +981,7 @@ HDNC1     CNRFC                                  -- US  3729 -11970     0  0
 MEEC1     CNRFC Bear_Ck_-_McKee_Rd               -- US  3738 -12033     0  0 HNX
 OWCC1     CNRFC Owens_Ck_-_Owens_Dam             -- US  3740 -12012     0  0 HNX
 NWMC1     CNRFC San_Joaquin_-_Newman             -- US  3681 -12050     0  0 HNX
-GSJC1     CNRFC Guadalupe_-_Sn_Jose,_St_Johns_Br -- US  3725 -12188     0  0 MTR
+GSJC1     CNRFC Guadalupe_-_Sn_Jose_St_Johns_Br  -- US  3725 -12188     0  0 MTR
 OREC1     CNRFC Orestimba_Ck_-_Newman            -- US  3727 -12128     0  0 STO
 ANDC1     CNRFC Coyote_Ck_-_Anderson_Res         -- US  3723 -12162     0  0 MTR
 COYC1     CNRFC Coyote_Ck_-_Coyote_Res           -- US  3717 -12149     0  0 MTR
@@ -1102,7 +1103,7 @@ PLMT1     LMRFC NF_OBION_NR_PALMRSVL             -- US  3646  -8844     0  0 MEG
 NOMT1     LMRFC NF_OBION_NR_MARTIN               -- US  3644  -8867     0  0 MEG
 FPHT1     LMRFC SF.HOLSTON/F.P.HENRY             -- US  3646  -8249     0  0 MRX
 UCGT1     LMRFC NF_OBION_NR_UNIONCTY             -- US  3646  -8886     0  0 MEG
-IMBA4     LMRFC SPRING_@_IMBODEN,_AR             -- US  3636  -9133     0  0 LZK
+IMBA4     LMRFC SPRING_@_IMBODEN_AR              -- US  3636  -9133     0  0 LZK
 WTGT1     LMRFC WATAUGA/WATAUGA_Dam              -- US  3632  -8192     0  0 MRX
 CRKT1     LMRFC HOLSTON/CHEROKEE_DAM             -- US  3629  -8321     0  0 MRX
 BVGA4     LMRFC WHITE_@_BEAVER_DAM               -- US  3611  -9390     0  0 TSA
@@ -1396,7 +1397,7 @@ LENL1     LMRFC B.PIERRE/LAKE_END                -- US  3216  -9361     0  0 SHV
 WAGL1     LMRFC CYPRESS/WALLACE_LAKE             -- US  3233  -9386     0  0 SHV
 JACM6     LMRFC PEARL_@_JACKSON                  -- US  3237  -9010     0  0 JAN
 PECM6     LMRFC PELAHATCHIE_C/FANNIN             -- US  3235  -8982     0  0 JAN
-NTZM6     LMRFC MISS_@_NATCHEZ,_MS               -- US  3200  -9092     0  0 JAN
+NTZM6     LMRFC MISS_@_NATCHEZ_MS                -- US  3200  -9092     0  0 JAN
 NLGL1     LMRFC TENSAS_NR_NEWLIGHT               -- US  3225  -9130     0  0 JAN
 RHLL1     LMRFC LITTLE_NR_ROCHELLE               -- US  3211  -9240     0  0 SHV
 JNEL1     LMRFC BLACK/JONESVILLE_L&D             -- US  3190  -9182     0  0 JAN
@@ -3092,7 +3093,7 @@ TKDW3     NCRFC WISCONSIN_R_TOMAHAWK_DAM         -- US  4555  -8989     0  0 GRB
 INRM4     NCRFC INDIAN_R_INDIAN_RIVER            -- US  4545  -8479     0  0 APX
 WHEW3     NCRFC HAY_R__WHEELER                   -- US  4531  -9206     0  0 MPX
 BSLM5     NCRFC BIG_STONE_LK_DAM_ORTM5           -- US  4544  -9664     0  0 ABR
-CYGM4     NCRFC CHEBOYGAN_R_-_CHEBOYGAN,_MI      -- US  4530  -8439     0  0 APX
+CYGM4     NCRFC CHEBOYGAN_R_-_CHEBOYGAN_MI       -- US  4530  -8439     0  0 APX
 SOMW3     NCRFC APPLE_R_SOMERSET                 -- US  4536  -9240     0  0 MPX
 CLKW3     NCRFC MENOMINEE_R_NR_AMBERG_9E_CHALK_H -- US  4557  -8786     0  0 GRB
 BRCW3     NCRFC FLAMBEAU_R__BRUCE_WI_7SSE        -- US  4549  -9107     0  0 MPX
@@ -3228,14 +3229,14 @@ MCIM4     NCRFC E_BR_AU_GRES_R_NR_MCIVOR         -- US  4434  -8378     0  0 APX
 OSHW3     NCRFC LAKE_WINNEBAGO_OSHKOSH           -- US  4404  -8882     0  0 GRB
 MMLM5     NCRFC REDWOOD_R_MARSHALL               -- US  4428  -9612     0  0 FSD
 SPFM5     NCRFC COTTONWOOD_R_SPRINGFIELD         -- US  4419  -9549     0  0 MPX
-WIDM5     NCRFC WINONA,_MN_L/D5A_-_MISSISSIPPI_R -- US  4419  -9175     0  0 ARX
+WIDM5     NCRFC WINONA_MN_L/D5A_-_MISSISSIPPI_RI -- US  4419  -9175     0  0 ARX
 ZUMM5     NCRFC ZUMBRO_R_ZUMBRO_FALLS            -- US  4416  -9279     0  0 ARX
 THLM5     NCRFC ZUMBRO_R__THEILMAN               -- US  4427  -9230     0  0 ARX
 KELM5     NCRFC ZUMBRO_R__KELLOGG                -- US  4428  -9211     0  0 ARX
 MNKM5     NCRFC MINNESOTA_R_MANKATO              -- US  4420  -9426     0  0 MPX
 MTWW3     NCRFC MANITOWOC_R_MANITOWOC            -- US  4410  -8802     0  0 GRB
           CBRFC NON-CONTRIBUTING_AREA            -- US  4436  -9492     0  0 RIW
-MSCM5     NCRFC MINNESOTA_CITY,_MN_L/D5-MISS._R. -- US  4424  -9196     0  0 ARX
+MSCM5     NCRFC MINNESOTA_CITY_MN_L/D5-MISS._R.  -- US  4424  -9196     0  0 ARX
 DDGW3     NCRFC TREMPEALEAU_R_DODGE              -- US  4422  -9157     0  0 ARX
 GALW3     NCRFC BLACK_R_GALESVILLE               -- US  4415  -9091     0  0 ARX
 SAFM4     NCRFC TITTABAWASSE_R_STANFORD_DAM      -- US  4399  -8432     0  0 DTX
@@ -3438,7 +3439,7 @@ BYRM4     NCRFC SHIAWASSEE_R_BYRON               -- US  4268  -8379     0  0 DTX
 AFTW3     NCRFC ROCK_R_AFTW3                     -- US  4272  -8900     0  0 MKX
 RCMM4     NCRFC KALAMAZOO_R_NEW_RICHMOND         -- US  4262  -8588     0  0 GRR
 FNHI4     NCRFC W_FK_CEDAR_R_FINCHFORD           -- US  4270  -9271     0  0 DMX
-RAYW3     NCRFC ROOT_R_CANAL_NR_RAYMOND,_WI      -- US  4274  -8801     0  0 MKX
+RAYW3     NCRFC ROOT_R_CANAL_NR_RAYMOND_WI       -- US  4274  -8801     0  0 MKX
 GDLM4     NCRFC GRAND_R_GRAND_LEDGE              -- US  4274  -8463     0  0 GRR
 MTCM4     NCRFC CLINTON_R_MT_CLEMENS             -- US  4269  -8299     0  0 DTX
 STBI4     NCRFC IOWA_R_STEAMBOAT_ROCK            -- US  4260  -9333     0  0 DMX
@@ -3553,7 +3554,7 @@ BURM4     NCRFC ST_JOSEPH_R_BURLINGTON           -- US  4202  -8476     0  0 GRR
           CBRFC NON-CONTRIBUTING_AREA            -- US  4218  -8369     0  0 RIW
 OAKM4     NCRFC STONY_CR_OAKVILLE                -- US  4212  -8365     0  0 DTX
 TAMI4     NCRFC IOWA_R_TAMA                      -- US  4202  -9290     0  0 DMX
-TOLI4     NCRFC DEER_CR_NR_TOLEDO,_IA            -- US  4209  -9267     0  0 DMX
+TOLI4     NCRFC DEER_CR_NR_TOLEDO_IA             -- US  4209  -9267     0  0 DMX
 MONM4     NCRFC RAISIN_R_MONROE_CITY             -- US  4202  -8365     0  0 DTX
 OXJI4     NCRFC WAPSIPINICON_R_OXFORD_JUNCTION   -- US  4201  -9117     0  0 DVN
 PENI2     NCRFC ELKHORN_CR_PENROSE               -- US  4202  -8967     0  0 LOT
@@ -3610,7 +3611,7 @@ DAVI3     NCRFC KANKAKEE_R__DAVIS                -- US  4157  -8657     0  0 IWX
 IOWI4     NCRFC IOWA_R_AT_IOWA_CITY              -- US  4171  -9150     0  0 DVN
 GENI2     NCRFC GREEN_R_GENESEO                  -- US  4150  -8979     0  0 DVN
 CRAI4     NCRFC CLEAR_CR_CORALVILLE              -- US  4171  -9180     0  0 DVN
-SCOI3     NCRFC PIGEON_R_NR_SCOTT,_IN            -- US  4163  -8529     0  0 IWX
+SCOI3     NCRFC PIGEON_R_NR_SCOTT_IN             -- US  4163  -8529     0  0 IWX
 PELI4     NCRFC RED_ROCK_LK_PELLA_5SW            -- US  4148  -9324     0  0 DMX
 IOCI4     NCRFC OLD_MANS_CR_NR_IOWA_CITY_5SW     -- US  4165  -9192     0  0 DVN
 NEPI4     NCRFC N_FK_ENGLISH_R_NR_NORTH_ENGLISH_ -- US  4161  -9235     0  0 DVN
@@ -3752,7 +3753,7 @@ VNDI2     NCRFC KASKASKIA_R__VANDALIA            -- US  3920  -8895     0  0 LSX
 BRSI2     NCRFC SHOAL_CR_NR_BREESE_IL            -- US  3900  -8949     0  0 LSX
 STFM7     NCRFC LONG_BRANCH_SANTE_FE_1_SW        -- US  3924  -9213     0  0 LSX
 TRYM7     NCRFC CUIVRE_R_NR_TROY                 -- US  3909  -9137     0  0 LSX
-SFZM7     NCRFC SO_FK_SALT_R_NR_SANTA_FE,_MO     -- US  3917  -9195     0  0 LSX
+SFZM7     NCRFC SO_FK_SALT_R_NR_SANTA_FE_MO      -- US  3917  -9195     0  0 LSX
 HRRI2     NCRFC HURRICANE_CR_NR_MULBERRY_GROVE   -- US  3907  -8923     0  0 LSX
 EADM7     NCRFC MISS_R_ST_LOUIS_MO               -- US  3886  -9009     0  0 LSX
 GRFI2     NCRFC MISS_R_GRAFTON                   -- US  3893  -9068     0  0 LSX
@@ -4266,7 +4267,7 @@ prto3     NWRFC Willamette_River_at_Portland     -- US  4538 -12258     0  0
 oswo3     NWRFC Tualatin_River_near_Lake_Oswego  -- US  4541 -12287     0  0    
           CBRFC NON-CONTRIBUTING_AREA            -- US  4552 -12187     0  0 RIW
           CBRFC NON-CONTRIBUTING_AREA            -- US  4552 -12078     0  0 RIW
-sjno3     NWRFC Snake_Riv_at_Johnson_Bar,_Idaho- -- US  4535 -11660     0  0    
+sjno3     NWRFC Snake_Riv_at_Johnson_Bar_Idaho   -- US  4535 -11660     0  0    
 syco3     NWRFC Johnson_Creek_at_Sycamore        -- US  4547 -12240     0  0    
           CBRFC NON-CONTRIBUTING_AREA            -- US  4550 -11811     0  0 RIW
 lago3     NWRFC Grande_Ronde_River_at_La_Grande  -- US  4523 -11840     0  0    
@@ -4449,32 +4450,32 @@ krbo3     NWRFC Illinois_River_near_Kerby        -- US  4206 -12358     0  0
 aplo3     NWRFC Applegate_Reservoir              -- US  4202 -12312     0  0    
 appo3     NWRFC Applegate_River_near_Copper      -- US  4206 -12311     0  0    
 ERIE1L    OHRFC ERIE_LAKE_SHORE                  -- US  4210  -7989     0  0 CLE
-WATN6     OHRFC Conewango_ck@Waterboro,_NY       -- US  4227  -7903     0  0 BUF
-OLNN6N    OHRFC Olean_ck_nr_Olean,_NY            -- US  4227  -7840     0  0 BUF
+WATN6     OHRFC Conewango_ck@Waterboro_NY        -- US  4227  -7903     0  0 BUF
+OLNN6N    OHRFC Olean_ck_nr_Olean_NY             -- US  4227  -7840     0  0 BUF
 GVCN6     OHRFC Great_Valley_Creek               -- US  4228  -7859     0  0 BUF
-RSSP1     OHRFC Conewango_ck@Russell,_Pa         -- US  4216  -7924     0  0 BUF
-FLCN6     OHRFC Chadakoin_River_@_Falconer,Ny    -- US  4219  -7939     0  0 BUF
-KNZP1     OHRFC Allegheny_River_@Kinzua_Dam,Pa   -- US  4198  -7881     0  0 CTP
-SLMN6     OHRFC Allegheny_River_At_Salamanca,Ny  -- US  4201  -7860     0  0 BUF
+RSSP1     OHRFC Conewango_ck@Russell_Pa          -- US  4216  -7924     0  0 BUF
+FLCN6     OHRFC Chadakoin_River_@_Falconer_Ny    -- US  4219  -7939     0  0 BUF
+KNZP1     OHRFC Allegheny_River_@Kinzua_Dam_Pa   -- US  4198  -7881     0  0 CTP
+SLMN6     OHRFC Allegheny_River_At_Salamanca_Ny  -- US  4201  -7860     0  0 BUF
 OLNN6     OHRFC Allegheny_River_@_Olean_NY       -- US  4203  -7825     0  0 BUF
-CACP1     OHRFC French_Crk_At_Carters_Crnrs,Pa   -- US  4205  -7980     0  0 CLE
-WTTP1     OHRFC French_ck@Wattsburg,_pa          -- US  4208  -7966     0  0 BUF
-YVLP1     OHRFC Brokenstraw_Creek_@Youngsvl,Pa   -- US  4194  -7952     0  0 CTP
-FCVP1     OHRFC French_ck@Venango,_Pa            -- US  4187  -7991     0  0 CLE
+CACP1     OHRFC French_Crk_At_Carters_Crnrs_Pa   -- US  4205  -7980     0  0 CLE
+WTTP1     OHRFC French_ck@Wattsburg_pa           -- US  4208  -7966     0  0 BUF
+YVLP1     OHRFC Brokenstraw_Creek_@Youngsvl_Pa   -- US  4194  -7952     0  0 CTP
+FCVP1     OHRFC French_ck@Venango_Pav            -- US  4187  -7991     0  0 CLE
 BCRO1     OHRFC                                  -- US  4186  -8432     0  0    
-WRRP1     OHRFC Allegheny_River_@_Warren,Pa      -- US  4189  -7917     0  0 CTP
-UCYP1     OHRFC French_Creek_Nr_Union_City,Pa    -- US  4196  -7988     0  0 CLE
-SHNP1     OHRFC Oswayo_Cr_@_Shinglehouse_,Pa     -- US  4191  -7806     0  0 CTP
-ELRP1     OHRFC Allegheny_River_At_Eldred,Pa     -- US  4188  -7841     0  0 CTP
+WRRP1     OHRFC Allegheny_River_@_Warren_Pa      -- US  4189  -7917     0  0 CTP
+UCYP1     OHRFC French_Creek_Nr_Union_City_Pa    -- US  4196  -7988     0  0 CLE
+SHNP1     OHRFC Oswayo_Cr_@_Shinglehouse__Pa     -- US  4191  -7806     0  0 CTP
+ELRP1     OHRFC Allegheny_River_At_Eldred_Pa     -- US  4188  -7841     0  0 CTP
 MONO1     OHRFC                                  -- US  4175  -8463     0  0    
-MEDP1     OHRFC French_Creek_@_Meadville,Pa      -- US  4178  -8018     0  0 CLE
+MEDP1     OHRFC French_Creek_@_Meadville_Pa      -- US  4178  -8018     0  0 CLE
 PAIO1L    OHRFC PAINESVILLE_LAKE_SHORE           -- US  4178  -8088     0  0 CLE
-WHKP1     OHRFC Allegheny_River_@_W_Hickory,Pa   -- US  4174  -7933     0  0 CTP
-PALP1     OHRFC Allegheny_Riv_@_Port_Allegheny,P -- US  4178  -7811     0  0 CTP
-ROSP1     OHRFC Oil_Creek_@_Rouseville,Pa        -- US  4167  -7968     0  0 CLE
+WHKP1     OHRFC Allegheny_River_@_W_Hickory_Pa   -- US  4174  -7933     0  0 CTP
+PALP1     OHRFC Allegheny_Riv_@_Port_Allegheny_P -- US  4178  -7811     0  0 CTP
+ROSP1     OHRFC Oil_Creek_@_Rouseville_Pa        -- US  4167  -7968     0  0 CLE
 SMPP1     OHRFC Potato_Creek_At_Smethport        -- US  4172  -7847     0  0 CTP
 PAIO1     OHRFC                                  -- US  4156  -8097     0  0 CLE
-LYNP1     OHRFC Tionesta_Creek@_Lynch,Pa         -- US  4169  -7903     0  0 CTP
+LYNP1     OHRFC Tionesta_Creek@_Lynch_Pa         -- US  4169  -7903     0  0 CTP
 JMSP1     OHRFC                                  -- US  4163  -8047     0  0 CLE
 WBYO1L    OHRFC WILLOUGHBY_LAKE_SHORE            -- US  4161  -8148     0  0 CLE
 STRO1     OHRFC                                  -- US  4161  -8433     0  0    
@@ -4487,9 +4488,9 @@ OTAO1     OHRFC OTTAWA_LAKE_SHORE                -- US  4141  -8313     0  0 CLE
 WTVO1L    OHRFC TOLEDO_LAKE_SHORE                -- US  4154  -8374     0  0 IWX
 GHDP1     OHRFC E._Br._Clarion_R._At_E._Br._Clar -- US  4161  -7855     0  0 CTP
 DEFO1     OHRFC                                  -- US  4138  -8451     0  0    
-TIOP1     OHRFC Tionesta_Creek@_Tionesta_Dam,Pa  -- US  4154  -7922     0  0 PBZ
+TIOP1     OHRFC Tionesta_Creek@_Tionesta_Dam_Pa  -- US  4154  -7922     0  0 PBZ
 NVLI3     OHRFC                                  -- US  4153  -8476     0  0    
-SUGP1     OHRFC Sugar_Creek_@_Sugarcreek,Pa      -- US  4155  -7985     0  0 PBZ
+SUGP1     OHRFC Sugar_Creek_@_Sugarcreek_Pa      -- US  4155  -7985     0  0 PBZ
 FRKP1     OHRFC Allegany_R@Franklin              -- US  4151  -7952     0  0 PBZ
 KNSO1     OHRFC                                  -- US  4149  -8061     0  0 CLE
 GRRO1     OHRFC                                  -- US  4138  -8407     0  0    
@@ -5117,7 +5118,7 @@ ALTV2     SERFC Roanoke_River                    -- US  3727  -7955     0  0 RNK
 SMIV2     SERFC Roanoke_River                    -- US  3722  -7984     0  0 RNK
 RONV2     SERFC Roanoke_River                    -- US  3721  -8020     0  0 RNK
 RNDV2     SERFC Roanoke_River                    -- US  3713  -7890     0  0 RNK
-FKNV2     SERFC Blackwtr_Riv_near_Franklin,_VA   -- US  3698  -7688     0  0 AKQ
+FKNV2     SERFC Blackwtr_Riv_near_Franklin_VA    -- US  3698  -7688     0  0 AKQ
 SEBV2     SERFC Nottoway_River                   -- US  3694  -7751     0  0 AKQ
 KERV2     SERFC Roanoke_River                    -- US  3676  -7861     0  0 RDU
 RAWV2     SERFC Nottoway_River                   -- US  3706  -7806     0  0 AKQ

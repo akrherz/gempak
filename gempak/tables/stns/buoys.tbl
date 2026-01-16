@@ -8,6 +8,7 @@
 ! A. Hardy/GSC           4/99  Added underscores to names
 ! C.J.Janota/MPC         7/00  Added 3 more WATL buoys for MPC verification
 ! B. Hebbard/SDB        10/24  Added 22 buoys per recent data-curation list
+! B. Hebbard/SDB         8/25  Added 10 buoys per recent data-curation list
 !
 ! The format for the file is given below, with the number of characters in
 ! parentheses.
@@ -71,3 +72,13 @@
          51214  King-Poloa                          AS  1430 -17088     0  0
          46282  Aptos_Creek_Nearshore               US  3695 -12192     0  0
          52215  Utwe                                FM   524  16300     0  0
+         42066  USM-R2                              US  3022   8918     0  0
+         46285  Capistrano_Beach_Nearshore          US  3345  11768     0  0
+         44080  Baltimore                           US  3922  -7653     0  0
+         42354  Chandeleur_Island_SE                US  2958  -8864     0  0
+         45212  North_Huron_Spotter                 US  4535  -8284   177  0
+         45213  East_Superior_Spotter               US  4759  -8659   183  0
+         45214  South_Michigan_Spotter              US  4267  -8703   176  0
+         46236  Monterey_Canyon_Outer               US  3676 -12195    0  0
+         46283  Yaquina_Channel_SW                  US  4457 -12424    0  0
+         46284  Soquel_Cove_S                       US  3693 -12193    0  0

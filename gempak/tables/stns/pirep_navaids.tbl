@@ -157,7 +157,7 @@ ANP           0 ANNAPOLIS                        MD US  3918  -7623     0  0
 ANQ           0 ANGOLA                           -- --  4164  -8509     0  0                    
 ANR           0 ANDREWS                          -- --  3235 -10254     0  0                    
 ANT           0 SAN_ANTONIO                      TX US  2953  -9847     0  0                    
-ANU           0 SAINT_JOHNS/ANTIGUA,BRITISH      -- --  1702  -6182     0  0                    
+ANU           0 SAINT_JOHNS/ANTIGUA_BRITISH      -- --  1702  -6182     0  0                    
 ANV           0 ANVIK                            -- --  6264 -16019     0  0                    
 ANW           0 AINSWORTH                        -- --  4257  -9999     0  0                    
 ANX           0 NAPOLEON                         -- --  3910  -9413     0  0                    
@@ -410,7 +410,7 @@ BKD           0 BRECKENRIDGE                     -- --  3275  -9889     0  0
 BKE           0 BAKER_CITY                       -- --  4484 -11781     0  0                    
 BKF           0 DENVER                           CO US  3977 -10488     0  0                    
 BKG           0 UTICA                            NY US  4312  -7510     0  0                    
-BKH           0 KEKAHA,KAUAI                     HI US  2202 -15979     0  0
+BKH           0 KEKAHA_KAUAI                     HI US  2202 -15979     0  0
 BKK           0 TRI_COUNTY                       -- --  3085  -8560     0  0                    
 BKL           0 BURKE_LAKEFRONT                  -- --  4153  -8166     0  0                    
 BKS           0 BROOKS_COUNTY                    -- --  2721  -9812     0  0                    
@@ -854,7 +854,7 @@ CSY           0 SAN_FRANCISCO                    CA US  3762 -12237     0  0
 CSZ           0 CROSSROADS                       -- --  3206  -9596     0  0                    
 CTB           0 CUT_BANK                         -- --  4856 -11234     0  0                    
 CTF           0 CHESTERFIELD                     -- --  3465  -8027     0  0                    
-CTG           0 CARTEGENA,COLOMBIA               -- --  1033  -7552     0  0                    
+CTG           0 CARTEGENA_COLOMBIA               -- --  1033  -7552     0  0                    
 CTH           0 COATESVILLE                      PA US  3998  -7587     0  0                  
 CTJ           0 CARROLLTON                       GA US  3363  -8515     0  0                    
 CTK           0 CANTON                           -- --  4057  -9008     0  0                    
@@ -1443,7 +1443,7 @@ FNZ           0 FERDINAND                        -- --  3825  -8684     0  0
 FOA           0 ELM_RIVER                        -- --  3867  -8845     0  0                    
 FOD           0 FORT_DODGE                       -- --  4261  -9429     0  0                    
 FOE           0 FORBES_AFB                       KS US  3897  -9568     0  0                    
-FOF           0 FORT_DE_FRANCE,FRENCH_WEST_I     -- --  1450  -6100     0  0                    
+FOF           0 FORT_DE_FRANCE_FRENCH_WEST_I     -- --  1450  -6100     0  0                    
 FOG           0 SHREVEPORT                       LA US  3238  -9373     0  0                    
 FOH           0 FOXWORTH                         -- --  3130  -8982     0  0                    
 FOJ           0 FREMONT                          MI US  4350  -8623     0  0                    
@@ -1513,8 +1513,8 @@ FWN           0 SUSSEX                           NJ US  4120  -7462     0  0
 FWQ           0 MONONGAHELA                      PA US  4021  -7983     0  0                   
 FWS           0 FORT_WORTH                       TX US  3257  -9731     0  0                    
 FXE           0 FT_LAUDERDALE                    FL US  2620  -8017     0  0                    
-FXF           0 FORT_DE_FRANCE,FRENCH_WEST_I     -- --  1452  -6110     0  0                    
-FXG           0 POINTE_A_PITRE,FRENCH_WEST_I     -- --  1618  -6153     0  0                    
+FXF           0 FORT_DE_FRANCE_FRENCH_WEST_I     -- --  1452  -6110     0  0                    
+FXG           0 POINTE_A_PITRE_FRENCH_WEST_I     -- --  1618  -6153     0  0                    
 FXU           0 POLK                             -- --  3111  -9322     0  0                    
 FXV           0 APPLETON                         WI US  4417  -8853     0  0                    
 FXW           0 FAREWELL_LAKE                    AK US  6252 -15362     0  0                    
@@ -1721,7 +1721,6 @@ GVO           0 GAVIOTA                          -- --  3453 -12009     0  0
 GVQ           0 BATAVIA                          NY US  4293  -7827     0  0                    
 GVT           0 GREENVILLE                       TX US  3310  -9612     0  0                    
 GVV           0 GRAIN                            -- --  4594 -11622     0  0                    
-GVW           0 GRANDVIEW                        MO US  3885  -9455     0  0                    
 GVX           0 GRUVER                           TX US  3617 -10143     0  0                    
 GWB           0 DE_KALB/AUBURN                   IN US  4131  -8506     0  0
 GWF           0 GEN_WILLIAM_J_FOX                -- --  3474 -11822     0  0                    
@@ -3269,10 +3268,10 @@ PIR           0 PIERRE                           -- --  4439 -10016     0  0
 PIT           0 PITTSBURGH                       PA US  4050  -8023     0  0                    
 PIX           0 PICTURE_ROCKS                    -- --  4128  -7671     0  0                    
 PIZ           0 POINT_LAY                        -- --  6973 -16301     0  0                    
-PJG           0 CURACAO,NETHERLANDS_ANTILLES     -- --  1217  -6902     0  0                    
-PJH           0 ARUBA,NETHERLANDS_ANTILLES       -- --  1252  -6993     0  0                    
+PJG           0 CURACAO_NETHERLANDS_ANTILLES     -- --  1217  -6902     0  0                    
+PJH           0 ARUBA_NETHERLANDS_ANTILLES       -- --  1252  -6993     0  0                    
 PJI           0 POINT_JUDITH                     RI US  4140  -7143     0  0                    
-PJM           0 SAINT_MAARTEN,NETHERLANDS_AN     -- --  1800  -6312     0  0                    
+PJM           0 SAINT_MAARTEN_NETHERLANDS_AN     -- --  1800  -6312     0  0                    
 PJN           0 PLANTATION                       -- --  2613  -8022     0  0                    
 PJR           0 PRENTISS                         -- --  3160  -8991     0  0                    
 PJS           0 HENRY                            -- --  3713  -7649     0  0                    
@@ -3344,7 +3343,7 @@ PPI           0 HOPEY                            -- --  4487  -9294     0  0
 PPM           0 PHILLIPS                         -- --  3947  -7617     0  0                    
 PPO           0 LA_PORTE                         IN US  4157  -8673     0  0                    
 PPQ           0 PITTSFIELD                       -- --  3964  -9078     0  0                    
-PPR           0 POINTE_A_PITRE/GUAD,FRENCH_W     -- --  1617  -6152     0  0                    
+PPR           0 POINTE_A_PITRE/GUAD_FRENCH_W     -- --  1617  -6152     0  0                    
 PPY           0 OMAHA                            NE US  4130  -9590     0  0                    
 PQF           0 MESQUITE                         -- --  3281  -9653     0  0                    
 PQI           0 PRESQUE_ISLE                     -- --  4677  -6809     0  0                    
@@ -3858,7 +3857,7 @@ SPH           0 SPRINGHILL                       -- --  3292  -9341     0  0
 SPI           0 SPRINGFIELD                      IL US  3985  -8968     0  0                    
 SPK           0 RENO                             NV US  3968 -11977     0  0                    
 SPO           0 DENVER                           CO US  3977 -10488     0  0                    
-SPP           0 SAN_ANDRES,COLOMBIA              -- --  1250  -8170     0  0                    
+SPP           0 SAN_ANDRES_COLOMBIA              -- --  1250  -8170     0  0                    
 SPQ           0 SPAIN                            -- --  3520  -9005     0  0                    
 SPS           0 WICHITA_FALLS                    -- --  3399  -9859     0  0                    
 SPT           0 ALBUQUERQUE                      NM US  3505 -10660     0  0                    
@@ -4123,7 +4122,7 @@ TUL           0 TULSA                            -- --  3620  -9579     0  0
 TUM           0 PANAMA_CITY                      -- PM   900  -7940     0  0                    
 TUN           0 FLINT                            MI US  4297  -8375     0  0                    
 TUP           0 TUPELO                           -- --  3422  -8880     0  0                    
-TUR           0 TURBO,COLOMBIA                   -- --   800  -7672     0  0                    
+TUR           0 TURBO_COLOMBIA                   -- --   800  -7672     0  0                    
 TUS           0 TUCSON                           -- --  3210 -11091     0  0                    
 TUT           0 PAGO_PAGO                        -- -- -1433 -17072     0  0                    
 TUU           0 HUNTINGTON                       WV US  3837  -8255     0  0                    
@@ -4135,7 +4134,7 @@ TVK           0 CENTERVILLE                      -- --  4069  -9290     0  0
 TVL           0 SOUTH_LAKE_TAHOE                 CA US  3890 -12000     0  0                    
 TVN           0 HUNTSVILLE                       AL US  3465  -8678     0  0                    
 TVQ           0 INDIANAPOLIS                     IN US  3972  -8628     0  0                    
-TVR           0 TALLULAH_/_VICKSBURG,_MS         LA US  3235  -9103     0  0                    
+TVR           0 TALLULAH_/_VICKSBURG_MS          LA US  3235  -9103     0  0                    
 TVT           0 TIVERTON                         -- --  4046  -8213     0  0                    
 TVX           0 GREENCASTLE                      -- --  3971  -8681     0  0                    
 TVY           0 TOOELE                           -- --  4061 -11235     0  0                    
@@ -4712,7 +4711,7 @@ ZBB           0 BIMINI                           -- BA  2568  -7928     0  0
 ZBF           0 BATHURST_AIRPORT                 -- CN  4763  -6575     0  0                    
 ZBV           0 BIMINI                           -- BA  2567  -7930     0  0                    
 ZCP           0 CAPE_PARRY                       NT CN  7006 -12443     0  0
-ZDX           0 SAINT_JOHNS/ANTIGUA,BRITISH      -- --  1700  -6180     0  0                    
+ZDX           0 SAINT_JOHNS/ANTIGUA_BRITISH      -- --  1700  -6180     0  0                    
 ZEF           0 ZEPHYR                           -- --  3631  -8072     0  0                    
 ZEM           0 EASTMAIN_RIVER_AIRPORT           -- CN  5223  -7851     0  0                   
 ZER           0 POTTSVILLE                       PA US  4063  -7607     0  0                    
@@ -4723,7 +4722,7 @@ ZFN           0 FORT_NORMAN_AIRPORT              -- CN  6492 -12557     0  0
 ZFP           0 FREEPORT/GR.B.I.                 -- BA  2650  -7878     0  0                    
 ZGV           0 GOVERNORS_HARBOUR                -- BA  2517  -7632     0  0                    
 ZIN           0 GREAT_INAGUA_ISLAND              -- BA  2083  -7367     0  0                    
-ZIY           0 GRAND_CAYMAN,BRITISH_WEST_IN     -- --  1917  -8138     0  0                    
+ZIY           0 GRAND_CAYMAN_BRITISH_WEST_IN     -- --  1917  -8138     0  0                    
 ZKI           0 KITIMAT                          BC CN  5400 -12867     0  0                    
 ZLS           0 STELLA_MARIS                     -- BA  2358  -7526     0  0
 ZMH           0 MARSH_HARBOUR;_ABACO_IS          -- BA  2652  -7708     0  0                    

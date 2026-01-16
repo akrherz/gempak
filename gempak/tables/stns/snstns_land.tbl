@@ -21,12 +21,12 @@
           02963 JOKIOINEN                           FI  6082  02350   103  1661
           02972 TURKU                               FI  6052  02227    54  16 9
           02974 HELSINKI                            FI  6032  02497    58  16 9
-          03005 LERWICK, SCOTLAND                   UK  6013 -00118    84  1662
-          03023 WEST GEIRINISH, SCOTLAND            UK  5735 -00737     3  1661
-          03026 STORNOWAY, SCOTLAND                 UK  5822 -00632    13  1662
+          03005 LERWICK SCOTLAND                    UK  6013 -00118    84  1662
+          03023 WEST GEIRINISH SCOTLAND             UK  5735 -00737     3  1661
+          03026 STORNOWAY SCOTLAND                  UK  5822 -00632    13  1662
 EGQK      03066 KINLOSS RAF                         UK  5765 -00357     7  16 9
           03085 INCHMARLO                           UK  5707 -00253    80  1662  OSO Hp and pos.
-          03091 ABERDEEN, SCOTLAND                  UK  5720 -00220    65  1661
+          03091 ABERDEEN SCOTLAND                   UK  5720 -00220    65  1661
           03162 ESKDALEMUIR                         UK  5532 -00320   242  16 9
           03170 SHANWELL                            UK  5643 -00287     5  1661
 EGQL      03171 LEUCHARS RAF                        UK  5638 -00287    12  16 9
@@ -51,7 +51,7 @@ EGVN      03649 BRIZE NORTON RAF                    UK  5175 -00158    88  1662 
           03693 SHOEBURYNESS                        UK  5155  00083     3  1662
           03743 LARKHILL                            UK  5120 -00180   132  1662
           03774 CRAWLEY                             UK  5108 -00022   144  1661
-EGHE      03803 SCILLY, ST. MARY'S                  UK  4992 -00630    31  1661  OSO Ha and pos.
+EGHE      03803 SCILLY ST. MARY'S                   UK  4992 -00630    31  1661  OSO Ha and pos.
           03808 CAMBORNE                            UK  5022 -00532    88  1661
           03882 HERSTMONCEUX                        UK  5090  00032    52  1661
           03918 CASTOR BAY                          UK  5450 -00634    18  16 9
@@ -512,7 +512,7 @@ LGSA      16746 SOUDA AIRPORT                       GR  3548  02412   151  16 9 
           25902 ATKA                                RA  6083  15180   797  12 9
           25913 MAGADAN                             RA  5958  15078   118  1228
           25954 KORF                                RA  6035  16600     2  1227
-          26038 TALLINN, ESTONIA                    RS  5945  02480    34  1661
+          26038 TALLINN ESTONIA                     RS  5945  02480    34  1661
           26063 LENINGRAD                           RS  5995  03070    78  1628  WMO Hp
           26087 BUDOGOSHCH                          RS  5928  03247    54  16 9
           26115 RISTINA                             RS  5892  02207     9  16 9
@@ -523,8 +523,8 @@ LGSA      16746 SOUDA AIRPORT                       GR  3548  02412   151  16 9 
           26298 BOLOGOE                             RS  5790  03405   187  1627
           26313 KOLKA                               RS  5775  02260     3  16 9
           26406 LEPAIA                              RS  5652  02102     8  1628
-          26422 RIGA, LATVIA                        RS  5697  02403    26  1661
-          26435 SKRIVERI, LATVIA                    RS  5665  02513    83  16 9
+          26422 RIGA LATVIA                         RS  5697  02403    26  1661
+          26435 SKRIVERI LATVIA                     RS  5665  02513    83  16 9
           26477 VELIKIE LUKI                        RS  5638  03060    98  1628
           26498 RZEV                                RS  5627  03432   196  16 9
           26524 SJAULJAJ                            RS  5593  02332   108  16 9
@@ -575,7 +575,7 @@ LGSA      16746 SOUDA AIRPORT                       GR  3548  02412   151  16 9 
           28630 ZLATOUST                            RA  5517  05967   457  12 9
           28642 CELJABINSK                          RA  5530  06153   246  12 9
           28661 KURGAN                              RA  5547  06540    79  1228
-          28679 PETROPAVLOVSK, KAZAKH               RA  5483  06915   136  12 9
+          28679 PETROPAVLOVSK KAZAKH                RA  5483  06915   136  12 9
           28698 OMSK                                RA  5493  07340    91  1228
           28711 BUGULMA                             RA  5458  05280   312  12 9
           28722 UFA                                 RA  5482  05615   104  1228
@@ -752,7 +752,7 @@ UKLL      33393 L'VIV                               UR  4982  02395   323  1627
           33658 CHERNIVTSI                          UR  4827  02597   246  1628  OSO Hp
           33711 KIROVOHRAD                          UR  4848  03225   171  16 9  OSO Hp
           33791 KRYVYI RIH                          UR  4792  03322   100  1628  NCDC
-UKII      33815 KISINEV, MOLDOVA                    RS  4702  02887   173  1628
+UKII      33815 KISINEV MOLDOVA                     RS  4702  02887   173  1628
 UKOO      33837 ODESA                               UR  4648  03063    42  1628
           33889 IZMAIL                              UR  4537  02887    30  16 9
           33902 KHERSON                             RS  4667  03262    48  16 9
@@ -1206,7 +1206,7 @@ RCFG      47741 MATSU                               JP  3545  13301    20  1248
           47898 SHIMIZU                             JP  3272  13302    32  12 9
           47909 NAZE                                JP  2838  12955   295  1247
           47918 ISHIGAKIJIMA                        JP  2433  12417     7  1247
-          47936 NAHA, OKINAWA                       JP  2620  12768    27  1222
+          47936 NAHA OKINAWA                        JP  2620  12768    27  1222
           47938 IE SHIMA                            JP  2672  12778    60  12 9
           47945 MINAMIDAITO JIMA                    JP  2583  13123    20  1247
           47971 CHICHI JIMA                         JP  2708  14218     8  12 9
@@ -1405,7 +1405,7 @@ RCFG      47741 MATSU                               JP  3545  13301    20  1248
           55299 NAGQU                               CI  3148  09205  4508  1232
           55472 XANZA                               CI  3095  08863  4671  12 9
           55578 ZHIKATSE                            CI  2922  08892  3837  12 9
-          55591 LHASA, TIBET                        CI  2970  09113  3650  1232
+          55591 LHASA TIBET                         CI  2970  09113  3650  1232
           55636 TINGRI                              CI  2858  08672  4302  1232
           55664 TING-JIH                            CI  2858  08662  4302  1232
           55696 LHUNZE                              CI  2842  09247  3900  12 9
@@ -1511,7 +1511,7 @@ RCFG      47741 MATSU                               JP  3545  13301    20  1248
           58911 CHANG TING                          CI  2585  11637   318  12 9
           58944 FU TIEN                             CI  2552  11978    24  12 9
           58965 TAOYUAN                             CI  2505  12122    48  1237
-          58968 TAIBEI, TAIWAN                      CI  2503  12152     7  1222
+          58968 TAIBEI TAIWAN                       CI  2503  12152     7  1222
           59007 KWANGNA                             CI  2403  10503  1251  12 9
           59023 HO CHIH                             CI  2470  10805   214  1232
           59046 LIUCHOW                             CI  2437  10938    95  12 9
@@ -1531,16 +1531,16 @@ RCFG      47741 MATSU                               JP  3545  13301    20  1248
           59417 LONGZHOU                            CI  2235  10683   129  12 9
           59431 NANNING                             CI  2263  10822   126  1232  WMO Hp
           59501 SHANWEI                             CI  2278  11537     7  12 9
-          59553 TUNGKONG, FORMOSA                   CI  2247  12043     8  1232
+          59553 TUNGKONG FORMOSA                    CI  2247  12043     8  1232
           59644 PEI HAI/PAKHOI                      CI  2148  10910    17  12 9
           59647 WEI-CHOU-TAO                        CI  2103  10912    41  1232
           59658 CHANCHIANG                          CI  2122  11040    28  12 9
           59663 YANGCHIANG                          CI  2187  11197    22  1232
           59758 HAIKOU                              CI  2000  11025    64  1232  WMO Jun2010
           59792 DONGSHA DAO                         CI  2067  11672     6  1222
-          59838 DONGFANG, HAINAN IS.                CI  1910  10862     8  12 9
+          59838 DONGFANG HAINAN IS.                 CI  1910  10862     8  12 9
           59948 YAXIAN                              CI  1828  10947     7  1232
-          59981 XISHA DAO, PARACEL IS.              CI  1683  11233     5  1232
+          59981 XISHA DAO PARACEL IS.               CI  1683  11233     5  1232
           59997 NANSHA DAO                          CI  1039  11437     5  12 9
           60018 TENERIFE-GUIMAR                     CR  2832 -01638   105  1161
           60020 SANTA CRUZ DE TENERIFE              CR  2845 -01625    36  1161
@@ -2311,36 +2311,36 @@ K2PJ      74792 POINSETT RANGE                   SC US  3385 -08048    68  14 9
 KXMR      74794 CAPE CANAVERAL                   FL US  2847 -08055     3  14 9
 KAVO      74796 AVON PARK GUNNERY RANGE          FL US  2765 -08133    20  14 9
           76062 PUERTO PENASCO                      MX  3131 -11355     3  14 9  PACS-SONET
-ILS       76151 ISLA GUADALUPE, B.C.                MX  2917 -11832    23  1461
-CUU       76225 CHIHUAHUA, CHIH.                    MX  2863 -10608  1434  14 9
-GYM       76255 GUAYMAS, SON.                       MX  2792 -11088     4  14 9
-          76256 EMPALME, SON.                       MX  2795 -11077    12  1461
-MOV       76342 MONCLOVA, COAH.                     MX  2690 -10142   586  14 9
+ILS       76151 ISLA GUADALUPE B.C.                 MX  2917 -11832    23  1461
+CUU       76225 CHIHUAHUA CHIH.                     MX  2863 -10608  1434  14 9
+GYM       76255 GUAYMAS SON.                        MX  2792 -11088     4  14 9
+          76256 EMPALME SON.                        MX  2795 -11077    12  1461
+MOV       76342 MONCLOVA COAH.                      MX  2690 -10142   586  14 9
 LMM       76370 TOPOLOBAMPO                         MX  2562 -10905    12  14 9  PACS-SONET
-TRC       76382 TORREON, COAH.                      MX  2553 -10344  1124  14 9
-MTY       76394 MONTERREY AEROPUERTO, N.L.          MX  2587 -10023   448  14 9
-LAP       76405 LA PAZ, B.C.                        MX  2417 -11030    19  1461
-          76458 MAZATLAN, SIN.                      MX  2320 -10642     4  14 9
-CVM       76491 CIUDAD VICTORIA, TAMPS.             MX  2373 -09913   321  14 9
-SOT       76499 SOTO LA MARINA, TAMPS.              MX  2377 -09820    25  14 9
-          76526 GUADALUPE, ZACATECAS                MX  2275 -10251  2265  1461  per J. Stoudt
+TRC       76382 TORREON COAH.                       MX  2553 -10344  1124  14 9
+MTY       76394 MONTERREY AEROPUERTO N.L.           MX  2587 -10023   448  14 9
+LAP       76405 LA PAZ B.C.                         MX  2417 -11030    19  1461
+          76458 MAZATLAN SIN.                       MX  2320 -10642     4  14 9
+CVM       76491 CIUDAD VICTORIA TAMPS.              MX  2373 -09913   321  14 9
+SOT       76499 SOTO LA MARINA TAMPS.               MX  2377 -09820    25  14 9
+          76526 GUADALUPE ZACATECAS                 MX  2275 -10251  2265  1461  per J. Stoudt
 TAM       76549 TAMPICO                             MX  2228 -09785    15  14 9  PACS-SONET
 CUN       76595 CANCUN                              MX  2102 -08685    10  1461
-GDL       76612 GUADALAJARA, JAL.                   MX  2067 -10338  1551  14 9
-MID       76644 MERIDA, YUC.                        MX  2098 -08965    11  14 9
-          76648 COZUMEL, Q.R.                       MX  2052 -08695     3  14 9
-CZM       76649 COZUMEL, Q.R.                       MX  2048 -08695     2  14 9
-          76654 MANZANILLO, COL.                    MX  1905 -10432     3  1461
-MEX       76679 MEXICO CITY, D.F.                   MX  1943 -09913  2306  1461
-HYY       76692 VERA CRUZ/HACIENDA, VER.            MX  1915 -09612    16  1461
+GDL       76612 GUADALAJARA JAL.                    MX  2067 -10338  1551  14 9
+MID       76644 MERIDA YUC.                         MX  2098 -08965    11  14 9
+          76648 COZUMEL Q.R.                        MX  2052 -08695     3  14 9
+CZM       76649 COZUMEL Q.R.                        MX  2048 -08695     2  14 9
+          76654 MANZANILLO COL.                     MX  1905 -10432     3  1461
+MEX       76679 MEXICO CITY D.F.                    MX  1943 -09913  2306  1461
+HYY       76692 VERA CRUZ/HACIENDA VER.             MX  1915 -09612    16  1461
 CME       76713 CIUDAD DEL CARMEN                   MX  1864 -09184     2  14 9  PACS-SONET
-          76723 ISLA SOCORRO, COL.                  MX  1872 -11095    35  1461
+          76723 ISLA SOCORRO COL.                   MX  1872 -11095    35  1461
           76730 FRONTERA                            MX  1852 -09265     4  14 9
           76743 VILLA HERMOSA                       MX  1798 -09293     6  14 9
-ACA       76805 ACAPULCO, GRO.                      MX  1683 -09993     3  1461
-IZT       76830 SAN GERONIMO, OAX.                  MX  1653 -09517    66  14 9
+ACA       76805 ACAPULCO GRO.                       MX  1683 -09993     3  1461
+IZT       76830 SAN GERONIMO OAX.                   MX  1653 -09517    66  14 9
 SCZ       76833 SALINA CRUZ                         MX  1617 -09519     8  14 9  PACS-SONET
-          76840 ARRIAGA, CHIS.                      MX  1623 -09390    64  14 9
+          76840 ARRIAGA CHIS.                       MX  1623 -09390    64  14 9
           76903 TAPACHULA                           MX  1488 -09230   119  1480
           76904 PUERTO MADERO TAPACHULA             MX  1470 -09240     3  14 9  PACS-SONET
 XKF       78016 BERMUDA NAS KINDLEY                 BE  3237 -06468    40  14 9
@@ -2379,16 +2379,16 @@ BFS       78801 FORT SHERMAN                        PM  0933 -07998    52  14 9
 BHO       78806 HOWARD AFB                          PM  0897 -07955    13  1461
 PCZ       78807 COROZAL                             PM  0898 -07958     7  1449
           78808 ALBROOK                             PM  0898 -07956    66  14 9
-          78857 BASSETERRE, ST. KITTS               AT  1728 -06273     9  14 9
-KPA       78861 COOLIDGE FIELD, ANTIGUA             AT  1712 -06178     5  14 9
+          78857 BASSETERRE ST. KITTS                AT  1728 -06273     9  14 9
+KPA       78861 COOLIDGE FIELD ANTIGUA              AT  1712 -06178     5  14 9
 ACM       78866 JULIANA                             MN  1805 -06312     3  14 9
-FFJ       78894 GUSTAVIA, ST. BARTHELEMY            MF  1790 -06287    47  14 9
-FFR       78897 LE RAIZET, GUADELOUPE               MF  1627 -06153    11  1463
+FFJ       78894 GUSTAVIA ST. BARTHELEMY             MF  1790 -06287    47  14 9
+FFR       78897 LE RAIZET GUADELOUPE                MF  1627 -06153    11  1463
 FFF       78925 LE LAMENTIN                         MR  1460 -06100     7  14 9
 TBPB      78954 GRANTLEY ADAMS INTL AIRPORT         BR  1307 -05950    47  1451
-KPT       78962 CROWN POINT, TOBAGO                 TD  1115 -06083     5  14 9
+KPT       78962 CROWN POINT TOBAGO                  TD  1115 -06083     5  14 9
 KPP       78970 PORT OF SPAIN/PIARCO                TD  1058 -06135    12  14 9
-ACC       78988 PLESMAN FIELD, CURACAO              NU  1220 -06897    54  14 9
+ACC       78988 PLESMAN FIELD CURACAO               NU  1220 -06897    54  14 9
 CSP       80001 SAN ANDREAS                         CO  1258 -08170     2  14 9
           80022 CARTAGENA                           CO  1045 -07552    12  14 9  PACS-SONET
 CBQ       80028 BARRANQUILLA/SOLEDAD                CO  1088 -07477    29  13 9
@@ -2419,12 +2419,12 @@ VPA       80457 PUERTO AYACUCHO                     VN  0560 -06750   120  13 9
 VDP       80462 SANTA ELENA DE UAIREN               VN  0460 -06111   907  13 9
           80464 SAN CARLOS DEL RIO                  VN  0193 -06705   133  1337
           80476 LA CANADA/MARACAIBO                 VN  1052 -07165    26  1337
-ENI       81202 NICKERIE, SURINAM                   SM  0595 -05703     4  13 9
+ENI       81202 NICKERIE SURINAM                    SM  0595 -05703     4  13 9
 EST       81209 STOELMANSEILAND                     SM  0435 -05445    51  13 9
 EZY       81225 ZANDERIJ                            SM  0545 -05520    16  13 9
 ETB       81250 TAFELBERG                           SM  0378 -05615   288  13 9
 ESI       81251 SIPALIWINI                          SM  0203 -05612   243  13 9
-ECI       81253 COEROENI, SURINAM                   SN  0337 -05733   148  13 9
+ECI       81253 COEROENI SURINAM                    SN  0337 -05733   148  13 9
 OOM       81401 ST. LAURENT DU MARONI               FG  0550 -05403     4  13 9
 OOO       81405 CAYENNE/ROCHAMBEAU                  FG  0483 -05237     9  1363
 OOG       81408 ST. GEORGES                         FG  0388 -05180     7  13 9
@@ -2604,17 +2604,17 @@ SPTU      84658 PUERTO MALDONADO                    PR -1260 -06922   201  13 9
           89662 BAIA TERRA NOVA (ANTARCTIC)         IY -7470  16410    80  1061
           89664 MCMURDO (ANTARCTIC)                 US -7785  16667    24  1080
 PMDY      91066 MIDWAY ISLAND                    HI US  2822 -17737    13  15 9
-PHBK      91162 BARKING SANDS, KAUAI             HI US  2207 -15978     4  15 9
-PHLI      91165 LIHUE, KAUAI                     HI US  2199 -15934    30  1552
-PHHI      91170 WHEELER AFB, OAHU                HI US  2148 -15803   290  15 9
-PHNG      91176 KANEOHE MCAS, OAHU               HI US  2145 -15777     3  15 9
-PHNA      91178 BARBERS POINT NAS, OAHU          HI US  2132 -15807    15  15 9
-PHNL      91182 HONOLULU AIRPORT, OAHU           HI US  2135 -15793     5  15 9
-PHOG      91190 PUUNENE, MAUI                    HI US  2090 -15643    20  15 9
-PGAC      91212 AGANA, GUAM                         MY  1348  14480    76  1511
-PGAC      91217 TAGUAC, GUAM                        MY  1355  14483    87  1551
-PGUA      91218 ANDERSON AFB, GUAM                  MY  1357  14492   162  15 9
-PGSN      91232 KOBLER NAS, SAIPAN                  MY  1513  14570     3  15 9
+PHBK      91162 BARKING SANDS KAUAI              HI US  2207 -15978     4  15 9
+PHLI      91165 LIHUE KAUAI                      HI US  2199 -15934    30  1552
+PHHI      91170 WHEELER AFB OAHU                 HI US  2148 -15803   290  15 9
+PHNG      91176 KANEOHE MCAS OAHU                HI US  2145 -15777     3  15 9
+PHNA      91178 BARBERS POINT NAS OAHU           HI US  2132 -15807    15  15 9
+PHNL      91182 HONOLULU AIRPORT OAHU            HI US  2135 -15793     5  15 9
+PHOG      91190 PUUNENE MAUI                     HI US  2090 -15643    20  15 9
+PGAC      91212 AGANA GUAM                          MY  1348  14480    76  1511
+PGAC      91217 TAGUAC GUAMc                        MY  1355  14483    87  1551
+PGUA      91218 ANDERSON AFB GUAM                   MY  1357  14492   162  15 9
+PGSN      91232 KOBLER NAS SAIPAN                   MY  1513  14570     3  15 9
 PKMA      91250 ENIWETOK ATOLL                      MH  1135  16235     6  15 9
 PHTO      91285 HILO/LYMAN                       HI US  1972 -15505    12  1551
           91317 WOLEAI ATOLL                        KA  0738  14392     2  15 9
@@ -2653,7 +2653,7 @@ PLFA      91487 FANNING ISLAND                      LN  0390 -15938     3  15 9
           91680 NADI AIRPORT                        FJ -1775  17745    13  1562 WMO Ha RS  10/03
           91690 LAUTHALA BAY                        FJ -1815  17845     9  15 9
 CIS       91701 CANTON IS.                          CT -0277 -17172     3  1537
-          91753 HIHIFO, WALLIS IS.                  FW -1323 -17617    23  15 9
+          91753 HIHIFO WALLIS IS.                   FW -1323 -17617    23  15 9
           91762 APIA                                ZM -1380 -17178     2  15 9
 NSTU      91765 PAGO PAGO/TAFUNA                    ZM -1434 -17071     5  1587  RRS
           91788 NUKUALDFA                           TO -2113 -17518     3  15 9
@@ -2662,7 +2662,7 @@ NSTU      91765 PAGO PAGO/TAFUNA                    ZM -1434 -17071     5  1587 
           91830 AITUTAKI                            KW -1883 -15977     6  15 9
           91843 RAROTONGA                           KW -2120 -15982     7  15 9
           91925 ATUONA                              PF -0980 -13903    52  1563
-          91928 PUKA PUKA, TUAMOTU IS.              PF -1480 -13882     3  15 9
+          91928 PUKA PUKA TUAMOTU IS.               PF -1480 -13882     3  15 9
           91929 BORA BORA                           PF -1645 -15175     3  15 9
           91931 MOPELIA                             PF -1677 -15395     3  15 9
           91938 TAHITI-FAAA                         PF -1755 -14962     2  1563
@@ -2671,10 +2671,10 @@ NSTU      91765 PAGO PAGO/TAFUNA                    ZM -1434 -17071     5  1587 
           91944 HAO                                 PF -1807 -14095     7  1563
           91945 HEREHERETUE                         PF -1987 -14500     3  15 9
           91948 RIKITEA                             PF -2313 -13497    89  1563
-          91954 TUBUAI, AUSTRAL IS.                 PF -2335 -14948     3  1563
-          91958 RAPA, AUSTRAL IS.                   PF -2762 -14433     2  1563
+          91954 TUBUAI AUSTRAL IS.                  PF -2335 -14948     3  1563
+          91958 RAPA AUSTRAL IS.                    PF -2762 -14433     2  1563
           92035 PORT MORESBY W.O.                   NG  -938  14722    48  15 9  WMO Jun2010
-          92044 MOMOTE, PAPUA                       NG -0205  14742     4  15 9
+          92044 MOMOTE PAPUA                        NG -0205  14742     4  15 9
           93012 KAITAIA                             NZ -3513  17327    54  1562
           93072 MOUNT TAMAHUNGA                     NZ -3630  17470   452  15 9
           93112 WHENUAPAI                           NZ -3678  17462    27  1561
@@ -2700,14 +2700,14 @@ NSTU      91765 PAGO PAGO/TAFUNA                    ZM -1434 -17071     5  1587 
           93996 NORFOLK ISLAND                      NZ -2905  16793   110  1537
           93997 RAOUL/KERMADEC ISLAND               NZ -2925 -17792    49  1561
           93998 MACQUARIE ISLAND                    NZ -5450  15895     7  1537
-          94014 MADANG, PAPUA                       NG -0522  14580     6  15 9
-          94027 LAE, PAPUA                          NG -0673  14700     8  15 9
+          94014 MADANG PAPUA                        NG -0522  14580     6  15 9
+          94027 LAE PAPUA                           NG -0673  14700     8  15 9
           94035 PORT MORESBY                        NG -0943  14722    47  15 9
           94044 MOMOTE                              NG -0207  14743     5  15 9
           94047 NADZAB                              NG -0605  14673    70  1537
           94076 KAVIENG                             NG -0257  15082     7  15 9
-          94085 RABAUL, PAPUA                       NG -0422  15218     6  15 9
-          94087 MISIMA IS., PAPUA                   NG -1070  15283    17  15 9
+          94085 RABAUL PAPUA                        NG -0422  15218     6  15 9
+          94087 MISIMA IS. PAPUA                    NG -1070  15283    17  15 9
           94120 DARWIN                           NT AU -1242  13088    30  1580
           94132 KATHERINE                        NT AU -1447  13227   108  15 9
           94150 GOVE AIRPORT                     NT AU -1228  13682    53  1580
@@ -2871,13 +2871,13 @@ WBKS      96491 SANDAKAN                            SK  0590  11807    13  15 9 
           97690 SENTANI                             ID -0257  14048    99  15 9
           97724 AMBON                               ID -0370  12808    12  1530
           97748 GESER                               ID -0388  13090     3  15 9
-          97760 KAIMANA, IRIAN BARAT                ID -0367  13375     3  15 9
+          97760 KAIMANA IRIAN BARAT                 ID -0367  13375     3  15 9
           97780 ENAROTALI                           ID -0392  13637  1770  15 9
           97810 TUAL/DUMATUBUN                      ID -0568  13275    12  15 9
 WAKT      97876 TANAH MERAH                         ID -0610  14030    16  15 9
           97900 SAUMLAKI                            ID -0798  13130    24  15 9
           97980 MERAUKE/MOPAH                       ID -0847  14038     3  1530
-RPUO      98135 BASCO, BATAN ISLAND                 PH  2045  12197    10  15 9
+RPUO      98135 BASCO BATAN ISLAND                  PH  2045  12197    10  15 9
 RPLI      98223 LAOAG                               PH  1818  12053     5  1550
           98322 CROW VALLEY GUNNERY RANGE           PH  1532  12042   160  15 9
 RPMK      98327 CLARK AFB                           PH  1517  12057   196  15 9
@@ -2892,9 +2892,9 @@ RPVP      98618 PUERTO PRINCESA                     PH  0975  11873    15  15 9
 RPMT      98646 CEBU/MACTAN                         PH  1030  12397    24  1560
 RPWS      98653 SURIGAO                             PH  0980  12550    22  15 9
 RPMD      98753 DAVAO AIRPORT                       PH  0712  12565    25  15 9
-          98754 DAVAO, MINDANAO                     PH  0707  12560    20  15 9
-          98830 JOLO, MINDANAO                      PH  0605  12100    13  15 9
-RPMZ      98836 ZAMBOANGA, MINDANAO                 PH  0690  12207     6  15 9
+          98754 DAVAO MINDANAO                      PH  0707  12560    20  15 9
+          98830 JOLO MINDANAO                       PH  0605  12100    13  15 9
+RPMZ      98836 ZAMBOANGA MINDANAO                  PH  0690  12207     6  15 9
           99852 GECONKFOR                           YG  4230  02080   401  1617
 EQBB      99877 GECONISAF/TERMEZ                    AH  3423  06727   637  1254
           99883 CAMP BASTION                        AH  3185  06420   900  1248

@@ -1,3 +1,50 @@
+KC24            CREEDE                           CO US  3782 -10693  2645  0
+KLLR            LITTLE_RIVER                     CA US  3926 -12375   174  0
+KMZM            MAIN_PASS_69P                    LA US  2926  -8903    40  0
+OPGW            GWADAR                              PK  2523   6233    10  0
+RKTS            SANGJU                              KR  3641  12818   150  0
+RKNO            KEO_JIN                             KR  3847  12847   107  0
+TAPB            CODRINGTON                          AG  1762  -6180    15  0
+UBLC            LACHIN                              AZ  3989   4635  1694  0
+HUKS            KASESE                              UG  0018   3010   961  0
+K16J            DAWSON                           GA US  3174  -8442   101  0
+KMKV            MARKSVILLE                       LA US  3109  -9207    24  0
+KPBM            SOUTH_TIMBALIER_232              LA US  2862  -9034    35  0
+KS31            LOPEZ                            WA US  4848 -12294    63  0
+RKNF            WHANG_RYEONG                        KR  3778  12878  1253  0
+VASL            SOLAPUR                             IN  1763   7594   483  0
+VEST            SATNA                               IN  2456   8085   347  0
+VOCC            KOCHI                               IN  0995   7627     2  0
+EHSG            BARSSELE                            NL  5170    306     0  0
+EHQN            HOLLANDSE_KUST_NOORD                NL  5265    426     0  0
+EHQS            HOLLANDSE_KUST_ZUID                 NL  5232    404     0  0
+EHQW            HOLLANDSE_KUST_WEST                 NL  5268    381     0  0
+FKKU            BAFOUSSAM                           CM  0554   1035  1324  0
+K3J1            RIDGELAND                        SC US  3249  -8099    24  0
+KU16            EAGLE_RANGE                      UT US  4106 -11307  1292  0
+KU19            GRANITE_PEAK                     UT US  3896 -11236  1519  0
+KU96            HALLS_CROSSING                   UT US  3744 -11056  1339  0
+KXNI            ZUNI                             NM US  3506 -10894  1942  0
+LAKU            KUKES                               AL  4203   2042   354  0
+MBSC            SOUTH_CAICOS                        TC  2152  -7153     1  0
+USDD            SALEKHARD                           RU  6659   6660    66  0
+FNBJ            BOM_JESUS                           AO  -905   1351   159  0
+KMWS            MOUNT_WILSON                     CA US  3423 -11806  1739  0
+KO26            LONE_PINE                        CA US  3659 -11805  1121  0
+KPHG            PHILLIPSBURG                     KS US  3973  -9932   581  0
+KU14            NEPHI                            UT US  3974 -11187  1530  0
+NFVB            VANUA_BALAVU                        FJ -1724 -17896    20  0
+RKTE            CHEONGJU                            KR  3657  12750    78  0
+UMIO            ORSHA                               BY  5444   3030  1942  0
+KNEN            JACKSONVILLE/WHITEHOUSE          FL US  3035  -8187    30  0
+KNRA            COUPEVILLE_NOLF                  WA US  4819 -12263    60  0
+KVMR            VERMILLION                       SD US  4277  -9693   349  0
+NTTO            HAI_ISLAND                          PF -1807 -14095     5  0
+RKTB            PAEKADO                             KR  3703  12600    46  0
+RKTP            SEASAN_AIR_BASE                     KR  3670  12649    11  0
+RKSW            SUWON_AIR_BASE                      KR  3724  12701    24  0
+SURV            RIVERA                              UY -3097  -5547   205  0
+VERW            REWA                                IN  2450   8122   346  0
 CYCD     718900 NANAIMO_AIRPORT                  BC CN  4905 -12387    30  0
 CYBD     999999 BELLA_COOLA_ARPT                 BC CN  5238 -12658    40  0
 CYCP     999999 BLUE_RIVER_(MAN)                 BC CN  5213 -11928   677  0
@@ -571,6 +618,7 @@ GOO      999999 NEVADA_COUNTY_AIR_PARK           CA US  3922 -12100   961  0
 GPH      999999 MIDWEST_NATL_AIR_CENTER_ARPT     MO US  3933  -9431   237  0
 GRE      999999 GREENVILLE_AIRPORT               IL US  3884  -8938   165  0
 GUL      999999 GUNNISON_OIL_PLATFORM_AWOS       TX US  2730  -9354     0  0
+GVW      999999 GALVESTON_209B_OIL_PLATFORM      TX US  2913  -9455    37  0
 GWB      999999 AUBURN_DE_KALB_COUNTY_ARPT       IN US  4131  -8506   268  0
 GZL      999999 STIGLER_REGIONAL_AIRPORT         OK US  3529  -9509   183  0
 H21      999999 CAMDENTON_ARPT                   MO US  3797  -9269   323  0

@@ -17,6 +17,7 @@
 ! G. Krueger/EAI	12/98
 ! D.W.Plummer/NCEP	12/98	Added NOTES
 ! G. Krueger/EAI	12/98	Sorted by ST, whole LON, whole LAT, PRI, STNM
+! B. Hebbard/SDB	06/25	Removed stray commas from NAME fields
 !
 !-------------------------------------------------------------------
 !
@@ -21586,7 +21587,7 @@ COWAN      6124 COWAN                            TN US  3517  -8601     0  7
 DECHERD    6192 DECHERD                          TN US  3521  -8608     0  7                               
 ESTILL_S   6282 ESTILL_SPRINGS                   TN US  3526  -8612     0  7                               
 FAYETTEV   6103 FAYETTEVILLE                     TN US  3515  -8655     0  7                               
-LYNCHBUR   6305 LYNCHBURG,_MOORE_COUNTY          TN US  3528  -8635     0  7                               
+LYNCHBUR   6305 LYNCHBURG_MOORE_COUNTY           TN US  3528  -8635     0  7                               
 NOLENSVI   7176 NOLENSVILLE                      TN US  3595  -8664     0  7                               
 SPRING_H   6912 SPRING_HILL                      TN US  3574  -8691     0  7                               
 WINCHEST   6160 WINCHESTER                       TN US  3519  -8610     0  7                               

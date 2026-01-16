@@ -28,6 +28,7 @@
 ! D. Kidwell/NCEP     8/04    Added 17 CMAN stations
 ! D. Kidwell/NCEP        5/05   Added 60 CMAN stations per TPC 
 ! B. Hebbard/SDB     10/24    Added 22 CMAN stations per UCAR data-curation
+! B. Hebbard/SDB      8/25    Added  8 CMAN stations per UCAR data-curation
 !
 45001         0                                  -- US     0      0   183  0                    
 45002         0                                  -- US     0      0   176  0                    
@@ -482,3 +483,11 @@ PPHH1         0 Heeia_Reserve_Papahana           HI US  2141 -15782     0  0
 PTFL1         0 Port_Fourchon                    LA US  2911  -9020     0  0
 NPQC1         0 Tijuana_River_Reserve            CA US  3260 -11712     0  0
 WQQM1         0 Wells_Reserve                    ME US  4330  -7059     0  0
+CXHN6         0 Coxsackie_Hudson_River           NY US  4235  -7380     0  0
+CXLM2         0 Cooperative_Oxford_Laboratory    MD US  3868  -7617     0  0
+CDCF1         0 Cut_D_Channel_Inbound_Rear_Range FL US  2775  -8251     0  0
+CAVN6         0 Cape_Vincent                     NY US  4413  -7633    76  0
+COXA2         0 Cordova                          AK US  6054 -14577     8  0
+CPSA2         0 Cape_Seniavin                    AK US  5640 -16014    58  0
+MDXA2         0 Middleton_Island                 AK US  5944 -14633    43  0
+TGXA2         0 Togiak                           AK US  5906 -16033     4  0

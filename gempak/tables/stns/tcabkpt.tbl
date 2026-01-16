@@ -76,7 +76,7 @@
 !STID    STNM   NAME                             ST CO   LAT    LON  ELV PRI TBCHRS  
 !(8)     (6)    (32)                            (2)(2)   (5)    (6)   (5)(2)   (20)
 !
-!  United States Gulf of Mexico and east coast - area IUSGEC = 1
+!  United States Gulf of America and east coast - area IUSGEC = 1
 !
 MTH_RIO  100100 Mouth_of_the_Rio_Grande_River    TX US  2596  -9715     0 10  TX061     G150
          100112                                  TX US  2606  -9717     0 12            G130G170
@@ -1044,7 +1044,7 @@ BERMUDA  500700 Bermuda                          -- BE  3230  -6475     0 50
 GR_CAYMN 500800 Grand_Cayman                     -- GC  1932  -8126     0 50    
          500810                                  -- GC  1938  -8148     0 51    
          500820                                  -- GC  1932  -8106     0 55    
-LT_CAYMN 500850 Little_Cayman,_Cayman_Brac       -- GC  1970  -7994     0 50    
+LT_CAYMN 500850 Little_Cayman_Cayman_Brac        -- GC  1970  -7994     0 50    
          500860                                  -- GC  1965  -8015     0 51    
          500870                                  -- GC  1976  -7971     0 55    
 DOMINICA 500900 Dominica                         -- DO  1540  -6135     0 50    
