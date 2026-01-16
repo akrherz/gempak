@@ -4,12 +4,16 @@
  *                                                                      *
  **                                                                     *
  * R. Tian/SAIC		 9/05						*
+ * K. Brill/IMSG         6/15	Add pd_mfrq				*
  ***********************************************************************/
 #ifndef PD_H_
 #define PD_H_
 
 #include "geminc.h"
 #include "gemprm.h"
+
+typedef unsigned int usint;
+typedef float xfloat;
 
 /*
  * Prototypes.
@@ -29,6 +33,8 @@ void pd_hans ( const float *tc1, const float *tc2, const float *dwpc,
 void pd_heat ( const float *tmpf, const float *relh, const int *np,
                 float *heat, int *iret );
 void pd_inmm ( const float *xinch, const int *np, float *xmm, int *iret );
+void pd_mfrq  ( const float *xa, const float *xf, const int *np,
+                float *xo, int *iret );
 void pd_mmin ( const float *xmm, const int *np, float *xinch, int *iret );
 void pd_kinx ( const float *t850, const float *t700, const float *t500,
                const float *td850, const float *td700, const int *np,

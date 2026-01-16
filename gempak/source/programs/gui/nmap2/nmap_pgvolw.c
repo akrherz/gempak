@@ -3768,10 +3768,12 @@ void pgvolw_createProd ( VG_DBStruct *vol, char **filter, char *text,
  * B. Hebbard/NCEP	11/19	If obsdate/time NIL, dflt OAC->NOT AVBL	*
  * B. Hebbard/NCEP 	03/22	Choose OBS v. EST in prod text for init	*
  * B. Hebbard/NCEP      02/23   F06/F12/F18: Show generated times always*
+ * B. Hebbard/NCEP      05/25   Per SAB, report elev as AMSL or BLW MSL *
  ***********************************************************************/
 {
+    const SHOW_ELEV_METERS = 0;
     int   vg_class, vg_type, adjust_min;
-    int   tarry[5], new_tarry[5], ier;
+    int   tarry[5], new_tarry[5], len, ier;
     const int line_len =   50;	/* line length for text product  */
     float elev;
     struct tm	    *utctime;
@@ -3809,7 +3811,7 @@ void pgvolw_createProd ( VG_DBStruct *vol, char **filter, char *text,
 
     elev = 0;
     cst_crnm ( vol->elem.vol.info.elev, &elev, &ier );
-    sprintf ( elevm, "%.0f", 0.3048 * elev );
+    sprintf ( elevm, "%.0f", F2M * elev );
 
     strcpy ( text, "FV" );
     sprintf ( &text[strlen(text)], "%s", vol->elem.vol.info.wmoid );
@@ -3933,10 +3935,21 @@ void pgvolw_createProd ( VG_DBStruct *vol, char **filter, char *text,
 
          if ( strcmp(filter[4], "USE_DEFAULT") == 0 ) {
 
-              sprintf( &text[strlen(text)], "%.0f", elev );
-              strcat ( text, " FT (" );
-              strcat ( text, elevm );
-              strcat ( text, " M)\n\n" );
+              sprintf( &text[strlen(text)], "%.0f",  fabs ( elev ) );
+              strcat ( text, " FT" );
+	      if (SHOW_ELEV_METERS) {
+                  strcat ( text, " (" );
+	          /* ABS(string) => remove "-" */
+	          cst_rmst ( elevm, "-", &len, elevm, &ier );
+                  strcat ( text, elevm );
+                  strcat ( text, " M)" );
+	      }
+	      if ( elev < 0 ) {  // negative elevation => "BLW MSL"
+                  strcat ( text, " BLW MSL\n\n" );
+	      }
+              else {  // positive elevation => "AMSL"
+		  strcat ( text, " AMSL\n\n" );
+	      }
 	 }
 	 else {
 

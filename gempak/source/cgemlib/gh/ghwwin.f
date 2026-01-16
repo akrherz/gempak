@@ -171,7 +171,7 @@ C
 C
 C*		Check for standard/supplemental breakpoints, and if
 C*		found, use the UGCs for the closest official breakpoint.
-C*		Only areas 1 (US Gulf of Mexico and East coast) and 9 
+C*		Only areas 1 (US Gulf of America and East coast) and 9
 C*		(Florida Keys) have the supplemental breakpoints.
 C
 		IF ( MOD ( ibkpri ( indxb ), 10 ) .eq. 0 ) THEN

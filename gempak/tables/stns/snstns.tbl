@@ -413,7 +413,7 @@ OEAB      41112 ABHA                             -- SD  1823   4265  2090  0
           41169 HAMAD_INTERNATIONAL_AIRPORT      -- QA  5161   2527     4  0                    
 OTBD      41170 DOHA_INTERNATIONAL_ARPT          -- QT  2525   5156    10  0                    
 OMAA      41217 ABU_DHABI_INTER_ARPT             -- ER  2443   5465    16  0                    
-OOMS      41256 SEEB,_INTL_AIRPORT               -- OM  2360   5830     8  0                    
+OOMS      41256 SEEB_INTL_AIRPORT                -- OM  2360   5830     8  0                    
 OOSA      41316 SALALAH                          -- OM  1704   5410    23  0                    
 OYSN      41404 SANA'A                           -- YE  1538   4420  2190  0                    
 OYAR      41443 RIYAN                            -- YE  1458   4925    25  0                    
@@ -1100,7 +1100,7 @@ KNTK      69016 SANTA_ANA                        CA US  3370 -11783    17  0
 KQAA      69110 PRIZREN                          -- KV  4213   2045   460  0                    
 PABR      70026 BARROW/W._POST_W.ROGERS          AK US  7129 -15678    12  0                    
           70027 SANDIA_LAB._D                    AK US -1566    713     1                       
-PAOT      70133 KOTZEBUE,_RALPH_WIEN             AK US  6689 -16261     5  0                    
+PAOT      70133 KOTZEBUE_RALPH_WIEN              AK US  6689 -16261     5  0                    
           70197 CENTRAL                          AK US  6548 -14466   252  0                    
 PAOM      70200 NOME                             AK US  6451 -16543     6  0                    
 PABE      70219 BETHEL/BETHEL_AIRPORT            AK US  6078 -16184    33  0                    
@@ -1126,7 +1126,7 @@ WLT       71082 ALERT                            NT CN  8250  -6233    65  0
 YZT       71109 PORT_HARDY                       BC CN  5068 -12738    17  0                    
 WVK       71115 VERNON                           BC CN  5023 -11928   556  1                    
 WSE       71119 EDMONTON_STONY_PLAIN             AB CN  5355 -11411   766  0                    
-YOD       71120 COLD_LAKE,                       AB CN  5442 -11028   541  0                    
+YOD       71120 COLD_LAKE                        AB CN  5442 -11028   541  0                    
 YED       71121 EDMONTON_NAMAO                   AB CN  5367 -11347   688  0                    
           71124 PRIMROSE_LAKE                    -- CA -1100    547    70                       
           71136 VANSCOY_UPPER-AIR                SA CN  5201 -10703   510  0                    
@@ -1306,7 +1306,7 @@ HBO       74547 HILLSBORO                        KS US  3861  -9730   446  0
 ILX       74560 LINCOLN                          IL US  4015  -8934   179  1                    
           74604 VANDENBERG_AFB                   CA US  3478 -12053   170  1                    
 VBG       74606 VANDENBERG_AFB                   CA US  3465 -12057   112  1                    
-NID       74612 CHINA_LAKE,_NAF                  CA US  3568 -11768   696  0                    
+NID       74612 CHINA_LAKE_NAF                   CA US  3568 -11768   696  0                    
 PSR       74626 WFO_PHOENIX                      AZ US  3345 -11195   386  0                    
           74629 WHITE_SANDS                      NM US  3240 -10633  1224  0                    
           74635 AZTEC                            NM US  3683 -10790  1902  0                    
@@ -1331,36 +1331,36 @@ PRC       74651 PURCELL                          OK US  3496  -9769   343  0
           74780 FORT_STEWART_RES                 GA US  3187  -8163    27  0                    
 XMR       74794 CAPE_KENNEDY                     FL US  2847  -8055     3  0                    
 AGR       74796 AVON_PARK_GUNRY_RNG              FL US  2765  -8133    20  0                    
-          76151 ISLA_GUADALUPE,_B.C.             -- MX  2888 -11830    23  1                    
-          76225 CHIHUAHUA,_CHIH.                 -- MX  2867 -10603  1472  1                    
-SNM       76256 EMPALME,_SON.                    -- MX  2795 -11080    12  1                    
+          76151 ISLA_GUADALUPE_B.C.              -- MX  2888 -11830    23  1                    
+          76225 CHIHUAHUA_CHIH.                  -- MX  2867 -10603  1472  1                    
+SNM       76256 EMPALME_SON.                     -- MX  2795 -11080    12  1                    
 LMM       76361 LOS_MOCHIS_AIRPORT               -- MX  2541 -10905     4  0                    
           76370 TOPOLOBAMPO                      -- MX -1090    256     1                       
           76382 TORREON_AIRPORT                  -- MX -1034    255   115                       
-          76393 MONTERREY,_N.L.                  -- MX  2573 -10030   512  1                    
+          76393 MONTERREY_N.L.                   -- MX  2573 -10030   512  1                    
 ADN       76394 MONTERREY_INTL                   -- MX  2587 -10023   448  1                    
-          76405 LA_PAZ,_B.C.S.                   -- MX  2412 -11032    18  0                    
+          76405 LA_PAZ _B.C.S.                   -- MX  2412 -11032    18  0                    
           76458 COLONIA_JUANCARRASCO             -- MX  2322 -10640     3  1                    
           76526 GUADALUPE                        -- MX  2275 -10250  2265  0                    
           76549 TAMPICO                          -- MX -9785   2228    15  0                    
           76595 CANCUN                           -- MX  2102  -8685     9  1                    
-          76612 GUADALAJARA,_JAL.                -- MX  2070 -10338  1551  1                    
+          76612 GUADALAJARA_JAL.                 -- MX  2070 -10338  1551  1                    
 MMMD      76644 AEROP.INTERNACIONAL_YUC          -- MX  2095  -8965    11  1                    
-          76654 MANZANILLO,_COL.                 -- MX  1907 -10433     3  1                    
-          76679 AEROP._INTL_MEXICO,_D.F.         -- MX  1943  -9913  2235  1                    
+          76654 MANZANILLO_COL.                  -- MX  1907 -10433     3  1                    
+          76679 AEROP._INTL_MEXICO_D.F.          -- MX  1943  -9913  2235  1                    
           76692 HACIENDA_YLANG_YLANG_VER         -- MX  1915  -9613    19  1                    
           76713 CUIDAD_DEL_CARMEN                -- MX -9183   1863     2  0                    
-          76723 ISLA_SOCORRO,_COL.               -- MX  1872 -11095    35  1                    
+          76723 ISLA_SOCORRO_COL.                -- MX  1872 -11095    35  1                    
           76743 VILLAHERMOSA                     -- MX  1798  -9293     6  0                    
-          76805 ACAPULCO,_GRO.                   -- MX  1675  -9975     3  0                    
+          76805 ACAPULCO_GRO.                    -- MX  1675  -9975     3  0                    
           76833 SALINA_CRUZ                      -- MX -9517   1617     2  0                    
-          76903 TAPACHULA,_CHIS.                 -- MX  1492  -9225   118  0                    
+          76903 TAPACHULA_CHIS.v                 -- MX  1492  -9225   118  0                    
 TXKF      78016 BERMUDA_NVL_STN_KINDLEY          -- BE  3237  -6468     4  0                    
 MYNN      78073 NASSAU_AIRPORT                   -- BA  2505  -7747     7  0                    
           78083 ANDROSTOWN                       -- BA  2470  -7777     3  0                    
           78086 KEMPS_BAY                        -- BA  2470  -7777     3  0                    
-          78355 CAMAGUEY,_CAMAGUEY               -- CU  2140  -7785   122  1                    
-MUGM      78367 GUANTANAMO,_ORIENTE              -- CU  1990  -7522    56  0                    
+          78355 CAMAGUEY_CAMAGUEY                -- CU  2140  -7785   122  1                    
+MUGM      78367 GUANTANAMO_ORIENTE               -- CU  1990  -7522    56  0                    
 MWCR      78384 OWEN_ROBERTS_ARPT                -- GC  1929  -8136     3  0                    
 MKJP      78397 KINGSTON/NORMAN_MANLEY           -- JM  1807  -7685   786  0                    
 MDSD      78486 SANTO_DOMINGO                    -- DR  1843  -6988    14  1                    
@@ -1376,14 +1376,14 @@ MROC      78762 JUAN_SANTAMARIA_INT.ARPT         -- CS   998  -8418   908  0
 MPHO      78806 HOWARD_AFB                       -- PM   898  -7955    69  0                    
 MPCZ      78807 COROZAL                          -- PM   897  -7957     7  0                    
           78808 ALBROOK                          -- PM   898  -7955    66  0                    
-          78861 COOLIDGE_FIELD,_ANTIGUA          -- AT  1712  -6178    10  0                    
+          78861 COOLIDGE_FIELD_ANTIGUA           -- AT  1712  -6178    10  0                    
 TNCM      78866 JULIANA_AIRPORT                  -- MN  1803  -6312     3  0                    
-TFFJ      78894 GUSTAVIA,ST._BARTHELEMY          -- MF  1790  -6285    52  0                    
-TFFR      78897 LE_RAIZET,_GUADELOUPE            -- MF  1626  -6152    11  0                    
+TFFJ      78894 GUSTAVIA_ST._BARTHELEMY          -- MF  1790  -6285    52  0                    
+TFFR      78897 LE_RAIZET_GUADELOUPE_            -- MF  1626  -6152    11  0                    
 TFFF      78925 LE_LAMENTIN                      -- MR  1460  -6100     5  0                    
 TBPB      78954 GRANTLEY_ADAMS                   -- BR  1307  -5948    50  0                    
 TTPP      78970 PIARCO_INT._AIRPORT              -- TD  1062  -6135    12  0                    
-TNCC      78988 HATO_AIRPORT,_CURACAO            -- NU  1220  -6897     8  0                    
+TNCC      78988 HATO_AIRPORT_CURACAO             -- NU  1220  -6897     8  0                    
 SKSP      80001 SAN_ANDRES_ISL                   -- CO  1258  -8172     1  0                    
           80028 BARRANQUILLA/ERNESTO_CORTISSOZ   -- CO -7478   1088    14  0                    
 SKRH      80035 RIOHACHA/ALMIRANTE               -- CO  1153  -7293     4  0                    
@@ -1535,7 +1535,7 @@ PTPN      91348 PONAPE                           -- KA   695  15820    38  0
           91364 ROI-NAMUR                        -- MH   940  16747     4  0                    
 PKWA      91366 KWAJALEIN/BUCHOLZ                -- MH   873  16773     2  0                    
 PKMJ      91376 MAJURO/MARSHALL_IS               -- MH   707  17129     4  0                    
-PTRO      91408 KOROR,_PALAU_IS                  -- KA   733  13448    30  0                    
+PTRO      91408 KOROR_PALAU_IS                   -- KA   733  13448    30  0                    
 PTYA      91413 YAP                              -- KA   948  13807    15  0                    
           91492 CHRISTMAS_ISLAND                 -- KI   200 -15740     3  0                    
           91517 HONIARA                          -- SO  -942  15997    55  0                    
@@ -1560,7 +1560,7 @@ NTAA      91938 TAHITI-FAAA                      -- PF -1756 -14961     2  0
           91948 RIKITEA                          -- PF -2313 -13497    91  0                    
 NTAT      91954 TUBUAI                           -- AU -2335 -14948     2  0                    
           91958 RAPA                             -- AU -2762 -14433     2  0                    
-          91997 RAOUL_IS,__KERMADEC_IS.          -- PT -2925 -17791    49  0                    
+          91997 RAOUL_IS__KERMADEC_IS.           -- PT -2925 -17791    49  0                    
           92035 PORT_MORESBY_W.O.                -- NG  -938  14722    48  0                    
           92044 MOMOTE_W.O.                      -- NG  -205  14742     4  0                    
           93072 MT_TAMAHUNGA                     -- NZ -3630  17470   452  0                    
@@ -1574,7 +1574,7 @@ NZHK      93614 HOKITIKA_AERODROME               -- NZ -4272  17098    45  0
           93817 LAUDER_UPPER_AIR                 -- NZ 16968  -4504   370  0                    
 NZNV      93844 INVERCARGILL_AERODROME           -- NZ -4641  16832     2  0                    
 NZCI      93986 CHATHAM_ISLAND                   -- NZ -4395 -17657    44  0                    
-NZRN      93997 RAOUL_IS,_KERMADEC_IS.           -- NZ -2924 -17793    48  0                    
+NZRN      93997 RAOUL_IS_KERMADEC_IS.            -- NZ -2924 -17793    48  0                    
 YPDN      94120 DARWIN_AIRPORT                   NT AU -1242  13089    31  0                    
 YDGV      94150 GOVE_AIRPORT                     NT AU -1227  13682    62  0                    
           94170 WEIPA_AMO                        QU AU -1268  14192    19  0                    

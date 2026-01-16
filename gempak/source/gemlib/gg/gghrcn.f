@@ -76,6 +76,7 @@ C* B. Hebbard/NCEP       5/20   Modify for new 60-hr fcst in TCM        *
 C*                              (SCN20-20) (now 8 fcst times)           *
 C* B. Hebbard/NCEP       6/20   Synthesize F60 data for JTWC; fix wind  *
 C*                              radii times; ensure synoptic minutes 0  *
+C* S. Guan/NCEP          5/25   Add 4 meter seas.                       *
 C************************************************************************
 	INCLUDE		'GEMPRM.PRM'
 C*
@@ -964,7 +965,8 @@ C
 	                          ELSE IF  ( iarr(1) .eq. 34 )  THEN
 	    	                    iarclr = 25
                                     iltyp = 1
-	                          ELSE IF  ( iarr(1) .eq. 12 )  THEN
+	                          ELSE IF ( ( iarr(1) .eq. 12 ) .or. 
+     +                              ( iarr(1) .eq. 4 ) )  THEN
 		                    iarclr = 3
                                     iltyp = 2
 	                        END IF

@@ -38,3 +38,4 @@
 -27	! No prior SAW found for watch !AS.
 -28	! Error in finding watch number in SAW:  !AS.
 -29	! Error in finding expiration time in SAW:  !AS.
+-30     ! The number of lightning strikes exceeded MAXSTK. 

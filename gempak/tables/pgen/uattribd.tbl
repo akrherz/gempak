@@ -222,29 +222,29 @@ CLASS_MET  GFA_ELM  34  27  27  1    1    4    0.50 27   0.66 1    2    1    0  
 CLASS_MET  GFA_ELM  35  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;ISYM|5;TOP;BSE  LABEL  !ICE system smear
 CLASS_MET  GFA_ELM  36  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;ISYM|5;TOP;BSE  LABEL  !ICE system outlook
 !TURB
-CLASS_MET  GFA_ELM  40  4   4   1    1    2    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB snapshot
-CLASS_MET  GFA_ELM  41  4   4   1    1    3    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB user drawn smear 
-CLASS_MET  GFA_ELM  42  4   4   1    1    3    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB system smear
-CLASS_MET  GFA_ELM  43  4   4   1    1    4    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB user drawn outlook
-CLASS_MET  GFA_ELM  44  4   4   1    1    4    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB system outlook
-CLASS_MET  GFA_ELM  45  4   4   1    1    3    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB system smear
-CLASS_MET  GFA_ELM  46  4   4   1    1    4    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB system outlook
+CLASS_MET  GFA_ELM  40  4   4   1    1    2    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB snapshot
+CLASS_MET  GFA_ELM  41  4   4   1    1    3    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB user drawn smear 
+CLASS_MET  GFA_ELM  42  4   4   1    1    3    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB system smear
+CLASS_MET  GFA_ELM  43  4   4   1    1    4    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB user drawn outlook
+CLASS_MET  GFA_ELM  44  4   4   1    1    4    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB system outlook
+CLASS_MET  GFA_ELM  45  4   4   1    1    3    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB system smear
+CLASS_MET  GFA_ELM  46  4   4   1    1    4    0.50 4    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB system outlook
 !TURB_HI
-CLASS_MET  GFA_ELM  50  7   7   1    1    2    0.50 7    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI snapshot
-CLASS_MET  GFA_ELM  51  7   7   1    1    3    0.50 7    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI user drawn smear 
-CLASS_MET  GFA_ELM  52  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI system smear
-CLASS_MET  GFA_ELM  53  30  30  1    1    4    0.50 30   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI user drawn outlook
-CLASS_MET  GFA_ELM  54  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI system outlook
-CLASS_MET  GFA_ELM  55  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI system smear
-CLASS_MET  GFA_ELM  56  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB HI system outlook
+CLASS_MET  GFA_ELM  50  7   7   1    1    2    0.50 7    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI snapshot
+CLASS_MET  GFA_ELM  51  7   7   1    1    3    0.50 7    0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI user drawn smear 
+CLASS_MET  GFA_ELM  52  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI system smear
+CLASS_MET  GFA_ELM  53  30  30  1    1    4    0.50 30   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI user drawn outlook
+CLASS_MET  GFA_ELM  54  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI system outlook
+CLASS_MET  GFA_ELM  55  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI system smear
+CLASS_MET  GFA_ELM  56  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB HI system outlook
 !TURB_LO
-CLASS_MET  GFA_ELM  60  25  25  1    1    2    0.50 25   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO snapshot
-CLASS_MET  GFA_ELM  61  25  25  1    1    3    0.50 25   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO user drawn smear 
-CLASS_MET  GFA_ELM  62  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO system smear
-CLASS_MET  GFA_ELM  63  26  26  1    1    4    0.50 26   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO user drawn outlook
-CLASS_MET  GFA_ELM  64  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO system outlook
-CLASS_MET  GFA_ELM  65  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO system smear
-CLASS_MET  GFA_ELM  66  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE  LABEL  !TURB LO system outlook
+CLASS_MET  GFA_ELM  60  25  25  1    1    2    0.50 25   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO snapshot
+CLASS_MET  GFA_ELM  61  25  25  1    1    3    0.50 25   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO user drawn smear 
+CLASS_MET  GFA_ELM  62  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO system smear
+CLASS_MET  GFA_ELM  63  26  26  1    1    4    0.50 26   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO user drawn outlook
+CLASS_MET  GFA_ELM  64  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO system outlook
+CLASS_MET  GFA_ELM  65  28  28  1    1    3    0.50 28   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO system smear
+CLASS_MET  GFA_ELM  66  27  27  1    1    4    0.50 27   0.66 1    2    1    0    STA;ZSFH::TAG;TSYM|4;TOP;BSE;MTW LABEL  !TURB LO system outlook
 !SFC WIND
 CLASS_MET  GFA_ELM  70  17  17  1    1    2    0.50 17   0.66 1    2    1    0    STA;ZSFH::TAG;SSYM|54/1.2/3/2  LABEL  !SFC WIND snapshot
 CLASS_MET  GFA_ELM  71  17  17  1    1    3    0.50 17   0.66 1    2    1    0    STA;ZSFH::TAG;SSYM|54/1.2/3/2  LABEL  !SFC WIND user drawn smear 

@@ -17,6 +17,7 @@
 ! S. Guan/NCEP           8/16   Added Sotara (Columbia)
 ! S. Guan/NCEP           1/17   Updated LAT, LON. and ELV from http://volcano.si.edu/projects/vaac-data/
 ! B. Hebbard/NCEP        2/23   Updated to include all SI GVP volcanoes with Last Known Eruption in CE
+! B. Hebbard/SDB         6/25   Removed stray commas from NAME fields
 !-------------------------------------------------------------------
 !
 !STID    STNM   NAME                             ST CO   LAT    LON  ELV PRI LOCATION
@@ -37,7 +38,7 @@
 290390   999999 Alaid                            -- --  5086  15556  2285  0 Kuril.Is
 284180   999999 Alamagan                         -- --  1760  14583   744  0 Mariana.Is-C.Pacific
 221112   999999 Alayta                           -- --  1289   4057  1496  0 Ethiopia
-353040   999999 Alcedo,_Volcan                   -- --   -43  -9112  1130  0 Galapagos
+353040   999999 Alcedo_Volcan                    -- --   -43  -9112  1130  0 Galapagos
 342040   999999 Almolonga                        -- --  1480  -9152  3173  0 Guatemala
 300450   999999 Alney-Chashakondzha              -- --  5666  15965  2570  0 Kamchatka
 221060   999999 Alu-Dalafilla                    -- --  1379   4055   578  0 Ethiopia
@@ -55,7 +56,7 @@
 213040   999999 Ararat                           -- --  3970   4430  5165  0 Turkey
 221126   999999 Ardoukoba                        -- --  1158   4247   298  0 Djibouti
 345033   999999 Arenal                           -- --  1046  -8470  1670  0 Costa.Rica
-231090   999999 Arhab,_Harra_of                  -- --  1563   4408  3100  0 Arabia-S
+231090   999999 Arhab_Harra_of                   -- --  1563   4408  3100  0 Arabia-S
 263290   999999 Arjuno-Welirang                  -- --  -773  11258  3343  0 Java
 305011   999999 Arxan-Chaihe                     -- --  4745  12080  1677  0 China-E
 283110   999999 Asama                            -- --  3641  13852  2568  0 Honshu-Japan
@@ -72,8 +73,8 @@
 300100   999999 Avachinsky                       -- --  5326  15884  2717  0 Kamchatka
 267040   999999 Awu                              -- --   369  12545  1318  0 Sangihe.Is-Indonesia
 331021   999999 Axial_Seamount                   -- --  4595 -13000 -1410  0 Pacific-NE
-353060   999999 Azul,_Cerro                      -- --   -92  -9141  1640  0 Galapagos
-357060   999999 Azul,_Cerro_[Quizapu]            -- -- -3565  -7076  3788  0 Chile-C
+353060   999999 Azul_Cerro                       -- --   -92  -9141  1640  0 Galapagos
+357060   999999 Azul_Cerro_[Quizapu]             -- -- -3565  -7076  3788  0 Chile-C
 283180   999999 Azuma                            -- --  3774  14024  1949  0 Honshu-Japan
 274030   999999 Babuyan_Claro                    -- --  1952  12195  1064  0 Luzon
 255020   999999 Bagana                           -- --  -614  15520  1855  0 Bougainville-SW.Paci
@@ -87,7 +88,7 @@
 341020   999999 Barcena                          -- --  1930 -11082   332  0 Mexico-Is
 373030   999999 Bardarbunga                      -- --  6463  -1752  2000  0 Iceland-NE
 260010   999999 Barren_Island                    -- --  1228   9386   354  0 Andaman.Is-Indian.O
-222030   999999 Barrier,_The                     -- --   232   3657  1032  0 Africa-E
+222030   999999 Barrier_The                      -- --   232   3657  1032  0 Africa-E
 346010   999999 Baru                             -- --   881  -8254  3474  0 Panama
 264010   999999 Batur                            -- --  -824  11538  1717  0 Lesser.Sunda.Is
 284070   999999 Bayonnaise_Rocks                 -- --  3189  13992    11  0 Izu.Is-Japan
@@ -100,17 +101,17 @@
 322030   999999 Blue_Lake_Crater                 -- --  4441 -12177  1230  0 US-Oregon
 311300   999999 Bogoslof                         -- --  5393 -16803   150  0 Aleutians
 234000   999999 Boomerang_Seamount               -- -- -3772   7782  -650  0 France-S.I.Ocean
-351012   999999 Bravo,_Cerro                     -- --   509  -7529  3985  0 Colombia
+351012   999999 Bravo_Cerro                      -- --   509  -7529  3985  0 Colombia
 371040   999999 Brennisteinsfjoll                -- --  6393  -2178   610  0 Iceland-SW
 390080   999999 Bristol_Island                   -- -- -5902  -2653  1100  0 Antarctica
 390010   999999 Buckle_Island                    -- -- -6678  16325  1239  0 Antarctica
 273010   999999 Bulusan                          -- --  1277  12406  1535  0 Luzon-Philippines
-358070   999999 Burney,_Monte                    -- -- -5233  -7340  1758  0 Chile-S
+358070   999999 Burney_Monte                     -- -- -5233  -7340  1758  0 Chile-S
 272050   999999 Cabalían                         -- --  1028  12522   912  0 Philippines-C
 273090   999999 Cagua                            -- --  1822  12212  1133  0 Luzon-Philippines
 358020   999999 Calbuco                          -- -- -4133  -7262  1974  0 Chile-S
 357091   999999 Callaqui                         -- -- -3792  -7145  3164  0 Chile-C
-224010   999999 Cameroon,_Mt.                    -- --   420    917  4095  0 Africa-W
+224010   999999 Cameroon_Mt.                     -- --   420    917  4095  0 Africa-W
 271080   999999 Camiguin                         -- --   920  12467  1552  0 Mindanao-Philippines
 274010   999999 Camiguin_de_Babuyanes            -- --  1883  12186   712  0 Luzon
 211010   999999 Campi_Flegrei                    -- --  4083   1414   458  0 Italy
@@ -121,17 +122,17 @@
 357140   999999 Carran-Los_Venados               -- -- -4035  -7207  1114  0 Chile-C
 352006   999999 Cayambe                          -- --     3  -7799  5790  0 Ecuador
 341030   999999 Ceboruco                         -- --  2112 -10451  2280  0 Mexico-Is
-275060   999999 Cendres,_Ile_des                 -- --  1016  10901   -20  0 SE.Asia
+275060   999999 Cendres_Ile_des                  -- --  1016  10901   -20  0 SE.Asia
 263170   999999 Cereme                           -- --  -690  10841  3039  0 Java
 352022   999999 Chacana                          -- --   -38  -7825  4643  0 Ecuador
 358041   999999 Chaiten                          -- -- -4283  -7265  1122  0 Chile-S
 305060   999999 Changbaishan                     -- --  4198  12808  2744  0 China-N.Korea
 341080   999999 Chichinautzin                    -- --  1908  -9913  3930  0 Mexico-Is
-341120   999999 Chichon,_El                      -- --  1736  -9323  1150  0 Mexico
+341120   999999 Chichon_El                       -- --  1736  -9323  1150  0 Mexico
 312110   999999 Chiginagak                       -- --  5714 -15699  2221  0 Alaska
 290360   999999 Chikurachki                      -- --  5032  15546  1781  0 Kuril.Is
 351110   999999 Chiles-Cerro_Negro               -- --    82  -7794  4698  0 Colombia-Ecuador
-357070   999999 Chillan,_Nevados_de              -- -- -3687  -7138  3180  0 Chile-C
+357070   999999 Chilla_Nevados_de                -- -- -3687  -7138  3180  0 Chile-C
 352071   999999 Chimborazo                       -- --  -147  -7882  6261  0 Ecuador
 290260   999999 Chirinkotan                      -- --  4898  15348   724  0 Kuril.Is
 290090   999999 Chirippusan_[Chirip]             -- --  4534  14792  1587  0 Kuril.Is
@@ -194,7 +195,7 @@
 311350   999999 Fisher                           -- --  5465 -16443  1112  0 Aleutian.Is
 384010   999999 Fogo                             -- --  1495  -2435  2829  0 Cape.Verde.Is
 243100   999999 Fonualei                         -- -- -1802 -17432   188  0 Tonga-SW.Pacific
-233020   999999 Fournaise,_Piton_de_la           -- -- -2124   5571  2632  0 Indian.O-W
+233020   999999 Fournaise_Piton_de_la            -- -- -2124   5571  2632  0 Indian.O-W
 312260   999999 Fourpeaked_Volcano               -- --  5877 -15367  2105  0 Alaska.Peninsula
 342090   999999 Fuego                            -- --  1447  -9088  3763  0 Guatemala
 358090   999999 Fueguino                         -- -- -5497  -7026   157  0 Chile-S
@@ -245,7 +246,7 @@
 332040   999999 Hualalai                         -- --  1969 -15587  2523  0 Hawaiian.Is
 357123   999999 Huanquihue_Group                 -- -- -3989  -7158  2189  0 Argentina-C
 354030   999999 Huaynaputina                     -- -- -1661  -7085  4850  0 Peru
-358057   999999 Hudson,_Cerro                    -- -- -4590  -7297  1905  0 Chile-S
+358057   999999 Hudson_Cerro                     -- -- -4590  -7297  1905  0 Chile-S
 358030   999999 Huequi                           -- -- -4238  -7258  1318  0 Chile-S
 351050   999999 Huila                            -- --   293  -7603  5364  0 Colombia
 243040   999999 Hunga_Tonga-Hunga_Ha'apai        -- -- -2054 -17538   114  0 Tonga-SW.Pacific
@@ -301,7 +302,7 @@
 290200   999999 Ketoi                            -- --  4735  15248  1172  0 Kuril.Is
 300272   999999 Khangar                          -- --  5476  15741  1967  0 Kamchatka
 290300   999999 Kharimkotan                      -- --  4912  15451  1145  0 Kuril.Is
-231060   999999 Khaybar,_Harrat                  -- --  2550   4000  2093  0 Saudi_Arabia
+231060   999999 Khaybar_Harrat                   -- --  2550   4000  2093  0 Saudi_Arabia
 360160   999999 Kick-'em-Jenny                   -- --  1230  -6164  -185  0 W.Indies
 282060   999999 Kikai                            -- --  3079  13030   704  0 Ryukyu.Is
 300180   999999 Kikhpinych                       -- --  5449  16025  1515  0 Kamchatka
@@ -352,7 +353,7 @@
 243090   999999 Late                             -- -- -1881 -17465   540  0 Tonga-SW.Pacific
 358060   999999 Lautaro                          -- -- -4902  -7350  3542  0 Chile-S
 263260   999999 Lawu                             -- --  -762  11119  3265  0 Java
-222120   999999 Lengai,_Ol_Doinyo                -- --  -276   3591  2962  0 Africa-E
+222120   999999 Lengai_Ol_Doinyo                 -- --  -276   3591  2962  0 Africa-E
 271031   999999 Leonard_Range                    -- --   738  12605  1080  0 Mindanao-Philippines
 264200   999999 Leroboleng                       -- --  -836  12283  1095  0 Lesser.Sunda.Is
 264180   999999 Lewotobi                         -- --  -854  12278  1703  0 Lesser.Sunda.Is
@@ -371,7 +372,7 @@
 222100   999999 Longonot                         -- --   -91   3645  2776  0 Africa-E
 357100   999999 Lonquimay                        -- -- -3838  -7159  2832  0 Chile-C
 257050   999999 Lopevi                           -- -- -1651  16835  1413  0 Vanuatu-SW.Pacific
-231040   999999 Lunayyir,_Harrat                 -- --  2517   3775  1370  0 Saudi_Arabia
+231040   999999 Lunayyir_Harrat                  -- --  2517   3775  1370  0 Saudi_Arabia
 358056   999999 Maca                             -- -- -4510  -7317  2960  0 Chile-S
 333060   999999 Macdonald                        -- -- -2898 -14025   -39  0 Austral.Is-C.Pacific
 351040   999999 Machin                           -- --   449  -7539  2749  0 Colombia
@@ -416,7 +417,7 @@
 212030   999999 Milos                            -- --  3670   2444   751  0 Greece
 284131   999999 Minami-Hiyoshi                   -- --  2350  14194  -107  0 Volcano.Is-Japan
 345030   999999 Miravalles                       -- --  1075  -8515  2028  0 Costa.Rica
-354010   999999 Misti,_El                        -- -- -1629  -7141  5822  0 Peru
+354010   999999 Misti_El                         -- -- -1629  -7141  5822  0 Peru
 284040   999999 Miyake-jima                      -- --  3409  13953   775  0 Izu.Is-Japan
 357130   999999 Mocho-Choshuenco                 -- -- -3993  -7203  2422  0 Chile-C
 344090   999999 Momotombo                        -- --  1242  -8654  1270  0 Nicaragua
@@ -433,8 +434,8 @@
 282040   999999 Nakano-shima                     -- --  2986  12986   979  0 Ryukyu.Is
 283200   999999 Naruko                           -- --  3873  14073   470  0 Honshu-Japan
 283150   999999 Nasu                             -- --  3712  13996  1915  0 Honshu-Japan
-353050   999999 Negra,_Sierra                    -- --   -83  -9117  1124  0 Galapagos
-344070   999999 Negro,_Cerro                     -- --  1251  -8670   728  0 Nicaragua
+353050   999999 Negra_Sierra                     -- --   -83  -9117  1124  0 Galapagos
+344070   999999 Negro_Cerro                      -- --  1251  -8670   728  0 Nicaragua
 344092   999999 Nejapa-Miraflores                -- --  1212  -8632   360  0 Nicaragua
 290320   999999 Nemo_Peak                        -- --  4957  15481  1018  0 Kuril.Is
 213020   999999 Nemrut_Dagi                      -- --  3865   4223  2948  0 Turkey
@@ -456,14 +457,14 @@
 223030   999999 Nyiragongo                       -- --  -152   2925  3470  0 Africa
 371080   999999 Oddnyjarhnjukur-Langjokull       -- --  6485  -1970  1100  0 Iceland-SW
 244010   999999 Ofu-Olosega                      -- -- -1418 -16962   639  0 Samoan-Wallis-Is-US
-355130   999999 Ojos_del_Salado,_Nevados         -- -- -2711  -6854  6879  0 Chile-Argentina
+355130   999999 Ojos_del_Salado_Nevados          -- -- -2711  -6854  6879  0 Chile-Argentina
 241050   999999 Okataina                         -- -- -3812  17650  1111  0 New.Zealand
 311290   999999 Okmok                            -- --  5343 -16813  1073  0 Aleutian.Is
 222090   999999 Olkaria                          -- --   -90   3629  2434  0 Africa-E
 283040   999999 On-take                          -- --  3589  13748  3067  0 Honshu-Japan
 300080   999999 Opala                            -- --  5254  15734  2439  0 Kamchatka
 374010   999999 Oraefajokull                     -- --  6400  -1665  2010  0 Iceland-SE
-341100   999999 Orizaba,_Pico_de                 -- --  1903  -9727  5564  0 Mexico-Is
+341100   999999 Orizaba_Pico_de                  -- --  1903  -9727  5564  0 Mexico-Is
 284010   999999 Oshima                           -- --  3472  13939   746  0 Izu.Is-Japan
 285010   999999 Oshima-Oshima                    -- --  4151  13937   732  0 Hokkaido-Japan
 283290   999999 Osorezan                         -- --  4128  14112   878  0 Honshu-Japan
@@ -484,11 +485,11 @@
 382020   999999 Pico                             -- --  3847  -2840  2351  0 Azores
 381040   999999 Pico_Fracture_Zone               -- --  3875  -3808 -4200  0 Undersea-Atlantic-N
 382081   999999 Picos_Fissural_Volcanic_System   -- --  3778  -2567   350  0 Azores
-344080   999999 Pilas,_Las                       -- --  1250  -8669  1088  0 Nicaragua
+344080   999999 Pilas_Las                        -- --  1250  -8669  1088  0 Nicaragua
 273083   999999 Pinatubo                         -- --  1513  12035  1486  0 Luzon-Philippines
 353070   999999 Pinta                            -- --    58  -9075   780  0 Galapagos
 357040   999999 Planchon-Peteroa                 -- -- -3522  -7057  3977  0 Chile-C
-360110   999999 Plat_Pays,_Morne                 -- --  1526  -6134   940  0 Dominica-W.Indies
+360110   999999 Plat_Pays_Morne                  -- --  1526  -6134   940  0 Dominica-W.Indies
 345040   999999 Poas                             -- --  1020  -8423  2697  0 Costa.Rica
 341090   999999 Popocatepetl                     -- --  1902  -9862  5393  0 Mexico
 290190   999999 Prevo_Peak                       -- --  4702  15212  1360  0 Kuril.Is
@@ -500,11 +501,11 @@
 357150   999999 Puyehue_Cordon_Caulle            -- -- -4059  -7212  2236  0 Chile-C
 360140   999999 Qualibou                         -- --  1383  -6105   777  0 Saint_Lucia-W.Indies
 357121   999999 Quetrupillan                     -- -- -3950  -7172  2360  0 Chile-C
-360020   999999 Quill,_The                       -- --  1748  -6296   601  0 Netherlands_W.Indies
+360020   999999 Quill_The                        -- --  1748  -6296   601  0 Netherlands_W.Indies
 352060   999999 Quilotoa                         -- --   -85  -7890  3914  0 Ecuador
 252140   999999 Rabaul                           -- --  -427  15220   688  0 New.Britain-SW.Pac
 271060   999999 Ragang                           -- --   769  12451  2790  0 Mindanao-Philippines
-231070   999999 Rahat,_Harrat                    -- --  2308   3978  1744  0 Saudi_Arabia
+231070   999999 Rahat_Harrat                     -- --  2308   3978  1744  0 Saudi_Arabia
 290250   999999 Raikoke                          -- --  4829  15325   551  0 Kuril.Is
 321030   999999 Rainier                          -- --  4685 -12176  4392  0 US-Washington
 264071   999999 Ranakah                          -- --  -862  12052  2350  0 Lesser.Sunda.Is
@@ -552,7 +553,7 @@
 390090   999999 Saunders                         -- -- -5780  -2648   843  0 Antarctica
 244040   999999 Savai'i                          -- -- -1361 -17252  1858  0 Samoa-SW.Pacific
 255070   999999 Savo                             -- --  -913  15982   485  0 Solomon.Is-SW.Pac
-231160   999999 Sawad,_Harra_Es-                 -- --  1358   4612  1737  0 Arabia-S
+231160   999999 Sawad_Harra_Es-                  -- --  1358   4612  1737  0 Arabia-S
 311180   999999 Seguam                           -- --  5232 -17251  1054  0 Aleutian.Is
 263300   999999 Semeru                           -- --  -811  11292  3657  0 Java
 311060   999999 Semisopochnoi                    -- --  5193  17958  1221  0 Aleutian.Is
@@ -602,7 +603,7 @@
 273070   999999 Taal                             -- --  1400  12099   311  0 Luzon-Philippines
 341130   999999 Tacana                           -- --  1513  -9211  4064  0 Mexico
 243120   999999 Tafu-Maka                        -- -- -1537 -17423 -1400  0 Tonga-SW.Pacific
-221010   999999 Tair,_Jebel_at                   -- --  1555   4183   244  0 Yemen
+221010   999999 Tair_Jebel_at                    -- --  1555   4183   244  0 Yemen
 285060   999999 Taisetsuzan                      -- --  4366  14285  2291  0 Hokkaido-Japan
 311090   999999 Takawangha                       -- --  5187 -17801  1449  0 Aleutian.Is
 261160   999999 Talang                           -- --   -98  10068  2575  0 Sumatra
@@ -612,7 +613,7 @@
 266130   999999 Tangkoko-Duasudara               -- --   152  12518  1334  0 Sulawesi-Indonesia
 263090   999999 Tangkubanparahu                  -- --  -677  10760  2084  0 Java
 290310   999999 Tao-Rusyr_Caldera                -- --  4934  15472  1272  0 Kuril.Is
-264260   999999 Tara,_Batu                       -- --  -779  12358   633  0 Lesser.Sunda.Is
+264260   999999 Tara_Batu                        -- --  -779  12358   633  0 Lesser.Sunda.Is
 241030   999999 Taranaki                         -- -- -3930  17407  2518  0 New.Zealand
 281032   999999 Tatun_Volcanic_Group             -- --  2518  12155  1120  0 Taiwan
 241070   999999 Taupo                            -- -- -3882  17600   760  0 New.Zealand
@@ -646,7 +647,7 @@
 257090   999999 Traitor's_Head                   -- -- -1875  16924   817  0 Vanuatu-SW.Pacific
 312160   999999 Trident                          -- --  5824 -15510  1864  0 Alaska.Peninsula
 386010   999999 Tristan_da_Cunha                 -- -- -3709  -1228  2060  0 Atlantic-S
-360100   999999 Trois_Pitons,_Morne              -- --  1537  -6133  1387  0 Dominica-W.Indies
+360100   999999 Trois_Pitons_Morne               -- --  1537  -6133  1387  0 Dominica-W.Indies
 357072   999999 Tromen_Volcanic_Plateau          -- -- -3714  -7003  4114  0 Argentina-C
 320100   999999 Tseax_River_Cone                 -- --  5512 -12890   609  0 Canada
 221250   999999 Tullu_Moje                       -- --   816   3914  2343  0 Ethiopia
@@ -683,17 +684,17 @@
 211050   999999 Vulcano                          -- --  3840   1496   500  0 Italy
 253040   999999 Waiowa                           -- --  -957  14907   640  0 New.Guinea
 385052   999999 Walvis_Ridge_at_33°S             -- -- -3296   -522 -1200  0 Undersea-Atlantic-C
-360101   999999 Watt,_Morne                      -- --  1531  -6130  1224  0 Dominica-W.Indies
+360101   999999 Watt_Morne                       -- --  1531  -6130  1224  0 Dominica-W.Indies
 320150   999999 Wells_Gray-Clearwater            -- --  5233 -12057  2576  0 Canada
 243130   999999 West_Mata                        -- -- -1510 -17375 -1174  0 Tonga-SW.Pacific
 311340   999999 Westdahl                         -- --  5452 -16465  1563  0 Aleutian.Is
 241040   999999 White_Island                     -- -- -3752  17718   294  0 New.Zealand
-353020   999999 Wolf,_Volcan                     -- --     2  -9135  1710  0 Galapagos
+353020   999999 Wolf_Volcan                      -- --     2  -9135  1710  0 Galapagos
 315020   999999 Wrangell                         -- --  6201 -14402  4278  0 Alaska-E
 305030   999999 Wudalianchi                      -- --  4872  12615   597  0 China-E
 265040   999999 Wurlali                          -- --  -712  12868   868  0 Banda.Sea
 283070   999999 Yake-dake                        -- --  3623  13759  2455  0 Honshu-Japan
-231080   999999 Yar,_Jabal                       -- --  1705   4283   305  0 Saudi_Arabia
+231080   999999 Yar_Jabal                        -- --  1705   4283   305  0 Saudi_Arabia
 257100   999999 Yasur                            -- -- -1953  16945   361  0 Vanuatu-SW.Pacific
 358022   999999 Yate                             -- -- -4176  -7240  2187  0 Chile-S
 282021   999999 Yokoatejima                      -- --  2880  12900   495  0 Kyushu-Japan

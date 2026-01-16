@@ -24,6 +24,7 @@
 #define D_Lon           6002
 #define D_Radius        19007
 #define MF_Turbulence   13
+#define MF_MountainWave 23
 #define MF_Phenomena    16
 #define DS_IFRCigAndVis 8
 #define DS_MtnObsc      9

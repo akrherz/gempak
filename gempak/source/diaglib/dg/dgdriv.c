@@ -98,6 +98,7 @@ void dg_driv ( const int *itype, int *iret )
  * C. Melick/SPC         8/11   Added DV_PVR3				*
  * K. Brill/HPC         05/12	Added DF_RDFS and DV_RDFV		*
  * C. Melick/SPC	 6/12	Added DF_NMAX, DF_NMIN			*
+ * K. Brill/IMSG         6/15   Added DF_MFRQ                           *
  * C. Melick/SPC         9/16   Added DF_GKDES, DF_NAVG, DF_NCGE        *
  *                              DF_NCLE, DF_NFGE, DF_NFLE, DF_NSUM      *
  *                              DF_NWAVG                                *
@@ -362,7 +363,10 @@ void dg_driv ( const int *itype, int *iret )
 		    df_navg  ( iret );
 		} else if  ( strcmp ( func, "NWAVG" ) == 0 )  {
 		    df_nwavg  ( iret );
-
+		} else if  ( strcmp ( func, "MFRQ" ) == 0 )  {
+                    df_mfrq  ( iret );
+                } else if  ( strcmp ( func, "NCGE" ) == 0 )  {
+                    df_ncge  ( iret );
 
 		/*
 		 * DV functions.

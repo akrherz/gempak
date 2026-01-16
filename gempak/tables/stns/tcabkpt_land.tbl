@@ -24,7 +24,7 @@
 !STID    STNM   NAME                             ST CO   LAT    LON  ELV PRI TBCHRS
 !(8)     (6)    (32)                            (2)(2)   (5)    (6)   (5)(2)   (20)
 !
-!  United States Gulf of Mexico and east coast
+!  United States Gulf of America and east coast
 !
 MTH_RIO  100100 Mouth_of_the_Rio_Grande_River    TX US  2596  -9715     0 10
 ARROYO_C 100150 Arroyo_City                      TX US  2641  -9723     0 10

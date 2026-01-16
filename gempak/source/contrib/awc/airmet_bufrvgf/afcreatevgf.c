@@ -646,9 +646,21 @@ buildSierraMtnObsc
 
 void buildTangoTurb(TimePeriod *tp, GFA_Turbulence_t *Turb, char *fname,
                     VG_DBStruct *el, preVGFtag_t *pvt)
+/******************************************************************************
+   Log: L. Hinson 10/07     Created.
+   Log: L. Hinson 01/25     Add Mountain Wave to Turbulence Objects.
+*******************************************************************************/
 {
   int subType, ier;
   strcpy(pvt->gfa_areaType,"TURB");
+  switch (Turb->metFeature) {
+    case 23:
+      strcpy(pvt->DUE_TO,"Mountain Wave");
+      break;
+    case 13:
+      pvt->DUE_TO[0] = '\0';
+      break;
+  }
   switch (Turb->giof.GFASeqId[0]) {
     case 'H':
       strcpy(pvt->gfa_areaType,"TURB-HI");
@@ -665,6 +677,7 @@ void buildTangoTurb(TimePeriod *tp, GFA_Turbulence_t *Turb, char *fname,
   cvg_setFld (el, "<Severity>",pvt->severity, &ier);
   cvg_setFld (el, TAG_GFA_TOP, pvt->gfa_top, &ier);
   cvg_setFld (el, TAG_GFA_BOTTOM, pvt->gfa_bottom, &ier);
+  cvg_setFld (el, "<Type>", pvt->DUE_TO, &ier);
 }
 
 void buildTangoSSW(TimePeriod *tp, GFA_SSW_t *SSW, char *fname,

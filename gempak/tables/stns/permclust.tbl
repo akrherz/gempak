@@ -58,6 +58,7 @@
 !				to Boulder County.  Email Mar 4 2019.
 ! G. Grosshans/SPC	03/22	Updated WFO CRP marine zones for their March 2022 changes
 ! G. Grosshans/SPC	09/22	Updated WFO PQR marine zones for their September 2022 changes
+! B. Hebbard/SDB	07/25	Updated WFO SGX marine zones for their March 2025 changes
 !--------------------------------------------------------------------------
 !
 ! MARINE ZONES GREAT LAKES
@@ -140,7 +141,7 @@ SEW|Jefferson|53031+611340+611350
 SEW|Mason|53045+611350
 SEW|Kitsap|53035+611350
 SEW|Island|53029+611340+611350
-SGX|San_Diego county|6073 + 617500
+SGX|San_Diego county|6073 + 617400
 TBW|Pinellas|12103+688300
 TBW|Hillsborough|12057+688300
 TBW|Manatee|12081+688300

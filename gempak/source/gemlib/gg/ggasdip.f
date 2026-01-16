@@ -30,6 +30,7 @@ C*                                                                      *
 C**                                                                     *
 C* Log:                                                                 *
 C* L. Hinson/AWC        05/12                                           *
+C* S. Guan/NCEP         10/25          Increase capacity: MAXSTK by x5  * 
 C************************************************************************ 
 	INCLUDE 'GEMPRM.PRM'
 C*
@@ -42,7 +43,7 @@ C*
 	CHARACTER*(*)   sites
         INTEGER         ht
 C*
-	PARAMETER	( MAXSTK = LLMXPT * 2 )
+	PARAMETER	( MAXSTK = LLMXPT * 10 )
 C*
 	CHARACTER	datmin*20
 

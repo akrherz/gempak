@@ -687,7 +687,6 @@ GUNZ     618490 N'ZEREKORE/KONIA                 -- GN   773   -883   470  0
 GUOK     618160 BOKE/BARALANDE                   -- GN  1093  -1432    69  0 
 GUSI     618110 SIGUIRI                          -- GN  1143   -917   366  0 
 GUXD     618290 KANKAN/DIANKANA                  -- GN  1038   -930   384  0 
-GVW      724466 RICHARDS-GEBAUR_AFB_(ASOS)       MO US  3885  -9455   333  0 
 H00      723444 BENTONVILLE_(AWOS)               AR US  3635  -9422   395  0 
 H39      722384 HIGH_ISLAND_A572C                LA US  2795  -9398    30  0 
 HAAB     634500 ADDIS_ABABA/BOLE                 -- ET   898   3880  2355  0 
@@ -1617,7 +1616,7 @@ WBI      716320 BRITT_(MARS)                     ON CN  4580  -8053   190  0
 WBJ      711620 INNER_WHALEBACKS                 NT CN  6192 -11373   165  0 
 WBKK     964710 KOTA_KINABALU_INTL               -- SK   593  11605     3  0 
 WBL      711430 BACHELORS_IL_(AUT)               MB CN  5175  -9990   256  0 
-WBR      710490 B,R                              NT CN  6603  -9183    31  0 
+WBR      710490 B_R                              NT CN  6603  -9183    31  0 
 WBS      999999 LAC_ST_PIERRE                    QB CN  4618  -7292    16  0 
 WBSB     963150 BRUNEI_INTL_AIRPORT              -- BF   493  11493    15  0 
 WBT      715120 LONGUE_PT_DE_MONGUE              ON CN  5027  -6423    11  0 
@@ -1674,12 +1673,12 @@ WFN      719200 CREE_LAKE_(MAPS)                 SA CN  5735 -10713   495  0
 WFO      718576 FLIN_FLON_(AUTO8)                MB CN  5468 -10170   304  0 
 WFP      719023 NAIN                             NF CN  5655  -6170     7  0 
 WFQ      713730 FRELIGHSBURG                     QB CN  4505  -7283   152  0 
-WFR      711046 HORSEFLY_RIVER,BC                BC CN  5228 -12105   846  0 
+WFR      711046 HORSEFLY_RIVER_BC                BC CN  5228 -12105   846  0 
 WFU      711835 LITTLE_MACATINA                  NF CN  5223  -6132   321  0 
 WFV      710480 VIRGINIA_FALLS                   NT CN  6163 -12580   610  0 
 WFX      710550 COLVILLE_LAKE                    NT CN  6703 -12608   259  0 
 WFY      718064 CONNE_RIVER                      NF CN  4817  -5548   183  0 
-WFZ      711600 FORT_RELIANCE,NWT                NT CN  6272 -10918   168  0 
+WFZ      711600 FORT_RELIANCE_NWT                NT CN  6272 -10918   168  0 
 WGB      717690 BALLENAS_IL_AUTO8_&              BC CN  4935 -12417     5  0 
 WGF      712530 GARDEN_RIVER(AUTO8)              AB CN  5868 -11388   241  0 
 WGH      712810 GRENADIER_ISLAND__&              ON CN  4442  -7585    82  0 

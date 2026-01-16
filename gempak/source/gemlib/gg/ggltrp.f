@@ -30,7 +30,11 @@ C* Log:									*
 C* D. Kidwell/NCEP	 2/00	                                        *
 C* S. Jacobs/NCEP	 3/00	Added Pos and Neg flags as input	*
 C* S. Jacobs/NCEP	 3/00	Changed 0 polarity to use negative sym	*
-C* B. Hebbard/NCEP  12/18   Increase capacity:  MAXSTK, idata size by x5
+C* B. Hebbard/NCEP      12/18   Increase capacity:  MAXSTK, idata size  *
+C*                              by x5                                   *
+C* S. Guan/NCEP         10/25   A warning message will appear in the    *
+C*                              Nmap2 error window if the number of     * 
+C*                              lightning strikes exceeds MAXSTK.       * 
 C************************************************************************
 	INCLUDE		'GEMPRM.PRM'
 C*
@@ -98,6 +102,13 @@ C
 		IF ( ii .le. lmin ) THEN
 		    DO jj = 2, nstrk * 4, 4
 			IF ( idata ( jj + 2 ) .gt. 0 ) THEN
+C
+C*                          A warning message will appear in the Nmap2
+C                           error window (lower right) if the number of
+C                           lightning strikes exceeds MAXSTK
+C                                
+                            IF ( ipos .gt.  MAXSTK ) CALL ER_WMSG  (
+     +                          'GG', -30, ' ', ierr )
 			    IF ( ipos .lt. MAXSTK ) THEN
 				ipos = ipos + 1
 			        IF ( istrtp ( ii ) .eq. IMISSD ) 
@@ -106,6 +117,8 @@ C
 				rlon (ipos,1) = idata (jj+1) / (-10000.)
 			    END IF
 			  ELSE
+                            IF ( ineg .gt.  MAXSTK ) CALL ER_WMSG  (
+     +                          'GG', -30, ' ', ierr )
 			    IF ( ineg .lt. MAXSTK ) THEN
 				ineg = ineg + 1
 			        IF ( istrtn ( ii ) .eq. IMISSD )

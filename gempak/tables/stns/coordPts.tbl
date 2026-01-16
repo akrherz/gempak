@@ -10,6 +10,7 @@
 ! Log:
 ! E. Safford/SAIC       06/05      Created table
 ! S. Silberberg/AWC     07/06/05   Modified table points
+! B. Hebbard/SDB        02/25      "Gulf of Mexico" -> "~ America" per EO 14172
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 !STID    STNM   NAME                            ST CO   LAT    LON   ELV  PRI
@@ -54,7 +55,7 @@ CR000003      9 DLF                              -  -   2936 -10077     0  1
 CR000004      9 90W BRO                          -  -   2591  -9905     0  1 
 CR000006      9 80E BRO                          -  -   2590  -9590     0  1 
 !
-!  Pts between CR and Gulf of Mexico       
+!  Pts between CR and Gulf of America
 CR000007      9 120SSW LCH                       -  -   2829  -9398     0  1 
 !
 !  Pts between CHI and DFW FA
@@ -97,7 +98,7 @@ ER000018      9 180E PBI                         -  -   2663  -7673     0  1
 ER000019      9 70ENE PBI                        -  -   2712  -7887     0  1 
 ER000020      9 150SE MIA                        -  -   2402  -7837     0  1 
 !
-!  Pts between ER and Gulf of Mexico       
+!  Pts between ER and Gulf of America       
 ER000021      9 80WSW EYW                        -  -   2406  -8315     0  1 
 ER000022      9 90WSW PIE                        -  -   2732  -8423     0  1 
 ER000023      9 170SE LEV                        -  -   2715  -8784     0  1 

@@ -41,6 +41,8 @@
  * L. Hinson/AWC        05/09   Added "BFHR", "EFHR" mnemonics          *
  * L. Hinson/AWC        06/09   Remove "OCNL" for MTN OBSC to fix DUE TO*
  *                              wording issue on Labels                 *
+ * L. Hinson/AWC        01/25   Add "MTW" for Mountain Wave Activity    *
+ *                              with High-Level/Low-Level Turbulence    *
  ***********************************************************************/
 /* Private Functions */ 
 static char *shave(char *str, const char *whitespace);
@@ -104,6 +106,7 @@ void inc_pgfatxt(char *status, char *hazard, char *tag, char *cycle, char *fcsth
  * L. Hinson/AWC        06/09   Remove "OCNL" for MTN OBSC to fix DUE TO*
  *                              wording issue on Labels                 *
  * L. Hinson/AWC        11/09   Add "DueTo" assignment on CLD_TOPS      *
+ * L. Hinson/AWC        01/25   Add "MTW" to TLAYOUT String             *
  ***********************************************************************/
 {    
   char carr[25][LLMXLN]; char *prmlst[25];
@@ -355,6 +358,12 @@ void inc_pgfatxt(char *status, char *hazard, char *tag, char *cycle, char *fcsth
         }
 
         strcat(outstr, work);
+        prmfound=True;
+      }
+      if (strcmp(gfaitem[j],"MTW") == 0) {
+        if (strstr(dueto,"Mountain Wave") != NULL) {
+          strcat(outstr,"MTN WV");
+        }
         prmfound=True;
       }
       if (strcmp(gfaitem[j],"LVL") == 0) {

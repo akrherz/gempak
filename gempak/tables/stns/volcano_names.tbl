@@ -12,6 +12,7 @@
 ! B. Hughes/SAB          2/04   Changed Smithsonian Number to Volcano Names for Map (D. Plummer)
 ! S. Guan/NCEP           1/17   Updated LAT, LON. and ELV from http://volcano.si.edu/projects/vaac-data/
 ! B. Hebbard/NCEP        2/23   Updated LAT, LON. and ELV from current SI where avail
+! B. Hebbard/SDB         6/25   Removed stray commas from NAME fields
 !
 !-------------------------------------------------------------------
 !
@@ -30,7 +31,7 @@ Akita-Ya 999999 Akita-Yake-yama                  -- --  3996  14076  1366  0 Hon
 Akutan   999999 Akutan                           -- --  5413 -16599  1303  0 Aleutian.Is
 Alaid    999999 Alaid                            -- --  5086  15556  2285  0 Kuril.Is
 Alayta   999999 Alayta                           -- --  1289   4057  1496  0 Ethiopia
-Alcedo,_ 999999 Alcedo,_Volcan                   -- --   -43  -9112  1130  0 Galapagos
+Alcedo_V 999999 Alcedo_Volcan                    -- --   -43  -9112  1130  0 Galapagos
 Ambrym   999999 Ambrym                           -- -- -1625  16812  1334  0 Vanuatu-SW.Pacific
 Amukta   999999 Amukta                           -- --  5250 -17125  1066  0 Aleutian_Is
 Anatahan 999999 Anatahan                         -- --  1635  14567   790  0 Mariana.Islands
@@ -51,8 +52,8 @@ Augustin 999999 Augustine                        -- --  5936 -15343  1252  0 Ala
 Avachins 999999 Avachinsky                       -- --  5326  15884  2717  0 Kamchatka
 Awu      999999 Awu                              -- --   369  12545  1318  0 Sangihe.Is-Indonesia
 Axial_Se 999999 Axial_Seamount                   -- --  4595 -13000 -1410  0 Pacific-NE
-Azul,_Ce 999999 Azul,_Cerro                      -- --   -92  -9141  1640  0 Galapagos
-Azul,_Ce 999999 Azul,_Cerro_[Quizapu]            -- -- -3565  -7076  3788  0 Chile-C
+Azul_Cer 999999 Azul_Cerro                       -- --   -92  -9141  1640  0 Galapagos
+Azul_Cer 999999 Azul_Cerro_[Quizapu]             -- -- -3565  -7076  3788  0 Chile-C
 Azuma    999999 Azuma                            -- --  3774  14024  1949  0 Honshu-Japan
 Babuyan_ 999999 Babuyan_Claro                    -- --  1952  12195  1064  0 Luzon
 Bagana   999999 Bagana                           -- --  -614  15520  1855  0 Bougainville-SW.Paci
@@ -64,7 +65,7 @@ Baransky 999999 Baransky                         -- --  4510  14802  1125  0 Kur
 Barcena  999999 Barcena                          -- --  1930 -11082   332  0 Mexico-Is
 Bardarbu 999999 Bardarbunga                      -- --  6463  -1752  2000  0 Iceland-NE
 Barren_I 999999 Barren_Island                    -- --  1228   9386   354  0 Andaman.Is-Indian.O
-Barrier, 999999 Barrier,_The                     -- --   232   3657  1032  0 Africa-E
+Barrier_ 999999 Barrier_The                      -- --   232   3657  1032  0 Africa-E
 Batur    999999 Batur                            -- --  -824  11538  1717  0 Lesser.Sunda.Is
 Bayonnai 999999 Bayonnaise_Rocks                 -- --  3189  13992    11  0 Izu.Is-Japan
 Besar    999999 Besar                            -- --  -444  10367  1900  0 Sumatra
@@ -73,22 +74,22 @@ Biliran  999999 Biliran                          -- --  1152  12454  1301  0 Phi
 Bogoslof 999999 Bogoslof                         -- --  5393 -16803   150  0 Aleutians
 Bristol_ 999999 Bristol_Island                   -- -- -5902  -2653  1100  0 Antarctica
 Bulusan  999999 Bulusan                          -- --  1277  12406  1535  0 Luzon-Philippines
-Burney,_ 999999 Burney,_Monte                    -- -- -5233  -7340  1758  0 Chile-S
+Burney_M 999999 Burney_Monte                     -- -- -5233  -7340  1758  0 Chile-S
 Calbuco  999999 Calbuco                          -- -- -4133  -7262  1974  0 Chile-S
 Callaqui 999999 Callaqui                         -- -- -3792  -7145  3164  0 Chile-C
-Cameroon 999999 Cameroon,_Mt.                    -- --   420    917  4095  0 Africa-W
+Cameroon 999999 Cameroon_Mt.                     -- --   420    917  4095  0 Africa-W
 Camiguin 999999 Camiguin                         -- --   920  12467  1552  0 Mindanao-Philippines
 Candlema 999999 Candlemas_Island                 -- -- -5708  -2667   550  0 Antarctica
 Canlaon  999999 Canlaon                          -- --  1041  12313  2435  0 Philippines-C
 Carran-L 999999 Carran-Los_Venados               -- -- -4035  -7207  1114  0 Chile-C
-Cendres, 999999 Cendres,_Ile_des                 -- --  1016  10901   -20  0 SE.Asia
+Cendres_ 999999 Cendres_Ile_des                  -- --  1016  10901   -20  0 SE.Asia
 Cereme   999999 Cereme                           -- --  -690  10841  3039  0 Java
 Chaiten  999999 Chaiten                          -- -- -4283  -7265  1122  0 Chile-S
-Chichon, 999999 Chichon,_El                      -- --  1736  -9323  1150  0 Mexico
+Chichon_ 999999 Chichon_El                       -- --  1736  -9323  1150  0 Mexico
 Chiginag 999999 Chiginagak                       -- --  5714 -15699  2221  0 Alaska
 Chikurac 999999 Chikurachki                      -- --  5032  15546  1781  0 Kuril.Is
 Chiles-C 999999 Chiles-Cerro_Negro               -- --    82  -7794  4698  0 Colombia-Ecuador
-Chillan, 999999 Chillan,_Nevados_de              -- -- -3687  -7138  3180  0 Chile-C
+Chillan_ 999999 Chillan_Nevados_de               -- -- -3687  -7138  3180  0 Chile-C
 Chirinko 999999 Chirinkotan                      -- --  4898  15348   724  0 Kuril.Is
 Chirpoi  999999 Chirpoi                          -- --  4653  15087   742  0 Kuril.Is
 Chokai   999999 Chokai                           -- --  3910  14005  2236  0 Honshu-Japan
@@ -107,7 +108,7 @@ Dallol   999999 Dallol                           -- --  1424   4030   -48  0 Eth
 Deceptio 999999 Deception_Island                 -- -- -6300  -6065   602  0 Antarctica
 Dempo    999999 Dempo                            -- --  -402  10312  3142  0 Sumatra
 Descabez 999999 Descabezado_Grande               -- -- -3558  -7075  3953  0 Chile-C
-Dhamar,_ 999999 Dhamar,_Harras_of                -- --  1457   4467  3500  0 Arabia-S
+Dhamar_H 999999 Dhamar_Harras_of                 -- --  1457   4467  3500  0 Arabia-S
 Didicas  999999 Didicas                          -- --  1908  12220   228  0 Luzon
 Dieng_Vo 999999 Dieng_Volc_Complex               -- --  -720  10988  2565  0 Java
 Dona_Jua 999999 Dona_Juana                       -- --   150  -7694  4137  0 Colombia
@@ -130,7 +131,7 @@ Fayal    999999 Fayal                            -- --  3858  -2871  1041  0 Azo
 Fernandi 999999 Fernandina                       -- --   -37  -9155  1476  0 Galapagos
 Fogo     999999 Fogo                             -- --  1495  -2435  2829  0 Cape.Verde.Is
 Fonualei 999999 Fonualei                         -- -- -1802 -17432   188  0 Tonga-SW.Pacific
-Fournais 999999 Fournaise,_Piton_de_la           -- -- -2124   5571  2632  0 Indian.O-W
+Fournais 999999 Fournaise_Piton_de_la            -- -- -2124   5571  2632  0 Indian.O-W
 Fourpeak 999999 Fourpeaked_Volcano               -- --  5877 -15367  2105  0 Alaska.Peninsula
 Fuego    999999 Fuego                            -- --  1447  -9088  3763  0 Guatemala
 Fukujin  999999 Fukujin                          -- --  2193  14347  -217  0 Volcano.Is-Japan
@@ -154,7 +155,7 @@ Heard    999999 Heard                            -- -- -5311   7351  2745  0 Ind
 Hekla    999999 Hekla                            -- --  6398  -1967  1490  0 Iceland
 Home_Ree 999999 Home_Reef                        -- -- -1899 -17478   -10  0 Tonga-SW.Pacific
 Hood     999999 Hood                             -- --  4537 -12170  3426  0 US-Oregon
-Hudson,_ 999999 Hudson,_Cerro                    -- -- -4590  -7297  1905  0 Chile-S
+Hudson_C 999999 Hudson_Cerro                     -- -- -4590  -7297  1905  0 Chile-S
 Huequi   999999 Huequi                           -- -- -4238  -7258  1318  0 Chile-S
 Huila    999999 Huila                            -- --   293  -7603  5364  0 Colombia
 Hunga_To 999999 Hunga_Tonga-Hunga_Ha'apai        -- -- -2054 -17538   114  0 Tonga-SW.Pacific
@@ -225,7 +226,7 @@ Langila  999999 Langila                          -- --  -552  14842  1330  0 New
 Lascar   999999 Lascar                           -- -- -2337  -6773  5592  0 Chile-N
 Lassen_V 999999 Lassen_Volc_Center               -- --  4049 -12151  3187  0 US-California
 Lautaro  999999 Lautaro                          -- -- -4902  -7350  3542  0 Chile-S
-Lengai,_ 999999 Lengai,_Ol_Doinyo                -- --  -276   3591  2962  0 Africa-E
+Lengai_O 999999 Lengai_Ol_Doinyo                 -- --  -276   3591  2962  0 Africa-E
 Lewotobi 999999 Lewotobi                         -- --  -854  12278  1703  0 Lesser.Sunda.Is
 Lewotolo 999999 Lewotolo                         -- --  -827  12351  1431  0 Lesser.Sunda.Is
 Llaima   999999 Llaima                           -- -- -3869  -7173  3125  0 Chile-C
@@ -271,8 +272,8 @@ Monowai_ 999999 Monowai_Seamount                 -- -- -2589 -17719  -132  0 Ker
 Mutnovsk 999999 Mutnovsky                        -- --  5245  15820  2288  0 Kamchatka
 Nakano-s 999999 Nakano-shima                     -- --  2986  12986   979  0 Ryukyu.Is
 Nasu     999999 Nasu                             -- --  3712  13996  1915  0 Honshu-Japan
-Negra,_S 999999 Negra,_Sierra                    -- --   -83  -9117  1124  0 Galapagos
-Negro,_C 999999 Negro,_Cerro                     -- --  1251  -8670   728  0 Nicaragua
+Negra_Si 999999 Negra_Sierra                     -- --   -83  -9117  1124  0 Galapagos
+Negro_Ce 999999 Negro_Cerro                      -- --  1251  -8670   728  0 Nicaragua
 Nemo_Pea 999999 Nemo_Peak                        -- --  4957  15481  1018  0 Kuril.Is
 Newberry 999999 Newberry_Volcano                 -- --  4372 -12123  2434  0 US-Oregon
 Niigata- 999999 Niigata-Yake-yama                -- --  3692  13804  2400  0 Honshu-Japan
@@ -297,7 +298,7 @@ Pelee    999999 Pelee                            -- --  1481  -6117  1372  0 W.I
 Penguin_ 999999 Penguin_Island                   -- -- -6210  -5793   180  0 Antarctica
 Perbaki- 999999 Perbaki-Gagak                    -- --  -675  10668  1726  0 Java
 Peuet_Sa 999999 Peuet_Sague                      -- --   490   9629  2785  0 Sumatra
-Pilas,_L 999999 Pilas,_Las                       -- --  1250  -8669  1088  0 Nicaragua
+Pilas_La 999999 Pilas_Las                        -- --  1250  -8669  1088  0 Nicaragua
 Pinatubo 999999 Pinatubo                         -- --  1513  12035  1486  0 Luzon-Philippines
 Pinta    999999 Pinta                            -- --    58  -9075   780  0 Galapagos
 Planchon 999999 Planchon-Peteroa                 -- -- -3522  -7057  3977  0 Chile-C
@@ -421,13 +422,13 @@ Veniamin 999999 Veniaminof                       -- --  5617 -15938  2507  0 Ala
 Vestmann 999999 Vestmannaeyjar                   -- --  6342  -2027   283  0 Iceland-S
 Vesuvius 999999 Vesuvius                         -- --  4082   1443  1281  0 Italy
 Victory  999999 Victory                          -- --  -920  14907  1925  0 New.Guinea
-Viedma,_ 999999 Viedma,_Volcan                   -- -- -4936  -7328  1500  0 Argentina
+Viedma_V 999999 Viedma_Volcan                    -- -- -4936  -7328  1500  0 Argentina
 Villarri 999999 Villarrica                       -- -- -3942  -7193  2847  0 Chile-C
 Visoke   999999 Visoke                           -- --  -146   2948  3696  0 Africa-C
 Waiowa   999999 Waiowa                           -- --  -957  14907   640  0 New.Guinea
 Westdahl 999999 Westdahl                         -- --  5452 -16465  1563  0 Aleutian.Is
 White_Is 999999 White_Island                     -- -- -3752  17718   294  0 New.Zealand
-Wolf,_Vo 999999 Wolf,_Volcan                     -- --     2  -9135  1710  0 Galapagos
+Wolf_Vol 999999 Wolf_Volcan                      -- --     2  -9135  1710  0 Galapagos
 Wrangell 999999 Wrangell                         -- --  6201 -14402  4278  0 Alaska-E
 Yake-dak 999999 Yake-dake                        -- --  3623  13759  2455  0 Honshu-Japan
 Yasur    999999 Yasur                            -- -- -1953  16945   361  0 Vanuatu-SW.Pacific

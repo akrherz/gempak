@@ -21,11 +21,12 @@
 ! M. Brennan/NHC        12/20   Updated for 2021 Season
 ! M. Brennan/NHC        12/21   Updated for 2022 Season
 ! M. Brennan/NHC         1/23   Updated for 2023 Season
+! B. Hebbard/SDB         6/25   Removed stray commas from NAME fields
 !
 !STID    STNM   NAME                             ST CO   LAT    LON  ELV PRI TBCHRS  
 !(8)     (6)    (32)                            (2)(2)   (5)    (6)   (5)(2)   (20)
 !
-!  United States Gulf of Mexico and east coast
+!  United States Gulf of America and east coast
 !
 MTH_RIO  100100 Mouth_of_the_Rio_Grande_River    TX US  2596  -9715     0 10
 ARROYO_C 100150 Arroyo_City                      TX US  2641  -9723     0 10
@@ -396,7 +397,7 @@ BAHAM_XW 500580 Bahamas_(Extreme_NW)             -- BA  2620  -7800     0 50
 BARBADOS 500600 Barbados                         -- BR  1315  -5955     0 50    
 BERMUDA  500700 Bermuda                          -- BE  3230  -6475     0 50    
 GR_CAYMN 500800 Grand_Cayman                     -- GC  1932  -8126     0 50    
-LT_CAYMN 500850 Little_Cayman,_Cayman_Brac       -- GC  1970  -7994     0 50    
+LT_CAYMN 500850 Little_Cayman_Cayman_Brac        -- GC  1970  -7994     0 50    
 DOMINICA 500900 Dominica                         -- DO  1540  -6135     0 50    
 GRENADA  501000 Grenada                          -- GD  1210  -6170     0 50    
 GRENADIN 501100 Grenadines/St._Vincent           -- GV  1320  -6120     0 50    
